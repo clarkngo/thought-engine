@@ -11,6 +11,9 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("content/posts/**/*.{gif,png,jpg,jpeg,webp,svg,mp4,webm,pdf}");
   eleventyConfig.addPassthroughCopy("content/assets");
 
+  // linkedin.md holds the copy-paste LinkedIn text; it isn't a site page.
+  eleventyConfig.ignores.add("content/posts/*/linkedin.md");
+
   eleventyConfig.addPreprocessor("drafts", "md,njk", (data) => {
     if (data.draft && isProduction) return false;
   });
