@@ -1,0 +1,26 @@
+{#- "Cite this" block for posts and articles. DOI (from Zenodo) is used when present, else the canonical URL. -#}
+{%- set absUrl = site.url + page.url -%}
+{%- set link = ("https://doi.org/" + doi) if doi else absUrl -%}
+{%- set key = site.authorFamily | lower + (page.date | year) + (page.fileSlug | replace(page.date | isoDate + "-", "") | replace("-", "") | truncate(16, true, "")) -%}
+<section class="cite" aria-labelledby="cite-heading" data-pagefind-ignore>
+  <h2 id="cite-heading">Cite this {{ kind | lower }}</h2>
+  <p class="cite-apa" id="cite-apa">{{ site.authorApa }} ({{ page.date | apaDate }}). <em>{{ title }}</em>. {{ site.title }}. {{ link }}</p>
+  <div class="cite-actions">
+    <button type="button" class="copy-btn" data-copy="#cite-apa">Copy APA</button>
+    <button type="button" class="copy-btn" data-copy="#cite-bibtex">Copy BibTeX</button>
+    {% if doi %}<a href="https://doi.org/{{ doi }}">DOI: {{ doi }}</a>{% endif %}
+  </div>
+<pre class="cite-bibtex" id="cite-bibtex">@misc{{ "{" }}{{ key }},
+  author       = {{ "{" }}{{ site.authorFamily }}, {{ site.authorGiven }}{{ "}" }},
+  title        = {{ "{" }}{{ title }}{{ "}" }},
+  year         = {{ "{" }}{{ page.date | year }}{{ "}" }},
+  month        = {{ page.date | monthAbbr }},
+  howpublished = {{ "{" }}{{ site.title }}{{ "}" }},
+  {%- if doi %}
+  doi          = {{ "{" }}{{ doi }}{{ "}" }},
+  {%- endif %}
+  url          = {{ "{" }}{{ link }}{{ "}" }},
+  note         = {{ "{" }}{{ site.license.name }}{{ "}" }}
+}</pre>
+  <p class="cite-license">Text and visuals are licensed <a href="{{ site.license.url }}" rel="license">{{ site.license.name }}</a>. Reuse with attribution.</p>
+</section>

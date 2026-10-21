@@ -27,7 +27,7 @@ permalink: /visuals/
       <div class="tile-media">{{ visual(post) | safe }}</div>
       <div class="tile-caption">
         <span class="tile-title">{{ post.data.title }}</span>
-        <span class="meta">{{ post.date | readableDate }}{% if post.data.visual_type == "carousel" %} · Carousel{% elif post.data.visual_type == "video" %} · Video{% endif %}{% if post.data.draft %} · Draft{% endif %}</span>
+        <span class="meta">{{ post.date | readableDate }}{% if post.data.kind == "Article" %} · Article{% endif %}{% if post.data.visual_type == "carousel" %} · Carousel{% elif post.data.visual_type == "video" %} · Video{% endif %}{% if post.data.draft %} · Draft{% endif %}</span>
       </div>
     </a>
   </li>

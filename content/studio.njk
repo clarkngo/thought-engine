@@ -1,0 +1,35 @@
+---
+layout: base.njk
+title: Studio
+permalink: /studio/
+draft: true
+eleventyExcludeFromCollections: true
+---
+{#- Local-only (draft: true keeps it out of the live site). Copy-ready LinkedIn text for every post and article. -#}
+<section class="intro">
+  <h1>Studio</h1>
+  <p>Local only. Copy buttons paste into LinkedIn with every line break intact. Not published on the live site.</p>
+</section>
+
+{% for item in linkedinCopy %}
+<section class="studio-item">
+  <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+  {% if item.downloads.length %}
+  <p class="meta">Download for LinkedIn:
+    {% for f in item.downloads %}<a href="{{ item.url }}{{ f }}" download>{{ f }}</a>{% if not loop.last %} · {% endif %}{% endfor %}
+  </p>
+  {% endif %}
+
+  <div class="studio-block">
+    <div class="studio-head"><h3>Post</h3><button type="button" class="copy-btn" data-copy="#post-{{ loop.index }}">Copy post</button></div>
+    <pre class="studio-text" id="post-{{ loop.index }}">{{ item.post }}</pre>
+  </div>
+
+  {% if item.firstComment %}
+  <div class="studio-block">
+    <div class="studio-head"><h3>First comment</h3><button type="button" class="copy-btn" data-copy="#comment-{{ loop.index }}">Copy comment</button></div>
+    <pre class="studio-text" id="comment-{{ loop.index }}">{{ item.firstComment }}</pre>
+  </div>
+  {% endif %}
+</section>
+{% endfor %}

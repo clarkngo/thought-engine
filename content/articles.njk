@@ -1,0 +1,29 @@
+---
+layout: base.njk
+title: Articles
+permalink: /articles/
+---
+{% from "visual.njk" import visual %}
+<section class="intro">
+  <h1>Articles</h1>
+  <p>Long-form, citable pieces that develop the ideas tested in posts. Each one has a citation block, and a DOI once archived.</p>
+</section>
+
+{% if collections.articles.length %}
+<ol class="post-list">
+  {% for a in collections.articles %}
+  <li>
+    <a class="post-card" href="{{ a.url }}">
+      {% if a.data.visual %}<div class="thumb">{{ visual(a) | safe }}</div>{% endif %}
+      <div>
+        <p class="meta"><time datetime="{{ a.date | isoDate }}">{{ a.date | readableDate }}</time>{% if a.data.pillar %} · {{ a.data.pillar }}{% endif %}{% if a.data.draft %} · <span class="badge">Draft</span>{% endif %}</p>
+        <h2>{{ a.data.title }}</h2>
+        {% if a.data.description %}<p>{{ a.data.description }}</p>{% endif %}
+      </div>
+    </a>
+  </li>
+  {% endfor %}
+</ol>
+{% else %}
+<p class="empty">No articles yet.</p>
+{% endif %}

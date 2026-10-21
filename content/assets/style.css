@@ -150,3 +150,97 @@ main { padding-block: 32px 64px; }
   --pagefind-ui-font: var(--font);
   --pagefind-ui-border-radius: var(--radius);
 }
+
+/* Footer */
+.site-footer p { margin: 0 0 4px; }
+.site-footer a { color: inherit; }
+
+/* Home sections */
+.intro .byline { margin-top: 10px; font-size: 0.9rem; }
+.home-section { margin-bottom: 36px; }
+.section-label {
+  font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--muted); margin: 0 0 12px;
+}
+
+/* Articles */
+.article { max-width: var(--prose); margin: 0 auto; }
+.article h1 { font-size: clamp(2rem, 5.5vw, 2.8rem); margin: 8px 0 10px; }
+.article .subtitle { font-size: 1.2rem; color: var(--muted); margin: 0 0 16px; line-height: 1.45; }
+.byline { color: var(--muted); font-size: 0.9rem; margin: 0 0 28px; }
+.byline a { color: inherit; }
+.abstract {
+  border-left: 4px solid var(--accent); background: var(--surface);
+  padding: 16px 20px; margin: 0 0 32px; border-radius: 0 var(--radius) var(--radius) 0;
+}
+.abstract p { margin: 0; }
+.abstract-label, .toc-label {
+  font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--muted); margin: 0 0 8px;
+}
+.toc { border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 20px; margin: 0 0 36px; }
+.toc ol { margin: 0; padding-left: 1.2em; }
+.toc li { margin: 2px 0; }
+.prose h2 { font-size: 1.45rem; margin: 2em 0 0.6em; scroll-margin-top: 16px; }
+.prose h3 { font-size: 1.15rem; margin: 1.6em 0 0.4em; }
+.prose blockquote {
+  margin: 1.4em 0; padding: 4px 0 4px 18px; border-left: 3px solid var(--line); color: var(--muted);
+}
+.prose figure { margin: 1.6em 0; }
+.prose figure img { width: 100%; border: 1px solid var(--line); border-radius: var(--radius); }
+.prose figcaption { color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+.prose ol.references { font-size: 0.92rem; padding-left: 1.4em; }
+.prose ol.references li { margin-bottom: 0.6em; overflow-wrap: anywhere; }
+.related { border-top: 1px solid var(--line); margin-top: 32px; padding-top: 8px; }
+.related h2 { font-size: 1.1rem; }
+.part-of { background: var(--accent-soft); padding: 10px 14px; border-radius: var(--radius); }
+
+/* Cite this */
+.cite { border-top: 1px solid var(--line); margin-top: 40px; padding-top: 8px; }
+.cite h2 { font-size: 1.1rem; }
+.cite-apa { font-size: 0.95rem; overflow-wrap: anywhere; }
+.cite-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+.cite-bibtex, .studio-text {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 12px 14px; font-size: 0.8rem; line-height: 1.5; overflow-x: auto; margin: 0;
+}
+.cite-license { color: var(--muted); font-size: 0.85rem; }
+.copy-btn {
+  font: inherit; font-size: 0.85rem; cursor: pointer; padding: 5px 12px; border-radius: 999px;
+  border: 1px solid var(--accent); background: var(--surface); color: var(--accent);
+}
+.copy-btn:hover { background: var(--accent-soft); }
+
+/* Studio */
+.studio-item { border-top: 1px solid var(--line); padding-top: 8px; margin-bottom: 32px; }
+.studio-block { margin: 16px 0; }
+.studio-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px; }
+.studio-head h3 { margin: 0; font-size: 1rem; }
+.studio-text { white-space: pre-wrap; font-family: var(--font); font-size: 0.95rem; }
+
+/* Print: clean PDF for archiving (Zenodo) */
+@media print {
+  .site-header, .toc, .cite-actions, .copy-btn, #search { display: none !important; }
+  body { background: #fff; color: #000; font-size: 11pt; }
+  main { padding: 0; }
+  a { color: inherit; }
+  .abstract { background: none; }
+  .post-visual video { display: none; }
+}
+
+/* Home: visual strip */
+.section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.see-all { font-size: 0.9rem; text-decoration: none; }
+.visual-strip {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; gap: 12px; grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+.visual-strip a {
+  display: block; aspect-ratio: 1; overflow: hidden; border-radius: 8px;
+  border: 1px solid var(--line); background: var(--surface);
+}
+.visual-strip a:hover { border-color: var(--accent); }
+.visual-strip a > img, .visual-strip a > video { width: 100%; height: 100%; object-fit: cover; }
+@media (max-width: 720px) {
+  .visual-strip { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}

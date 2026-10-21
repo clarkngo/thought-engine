@@ -1,7 +1,14 @@
 {
   "title": "Thought Engine",
   "description": "AI infrastructure, agentic systems, higher education, and the architecture underneath them.",
+  "url": "https://clarkngo.github.io/thought-engine",
   "author": "Clark Ngo",
+  "authorGiven": "Clark",
+  "authorFamily": "Ngo",
+  "authorApa": "Ngo, C.",
+  "affiliation": "City University of Seattle",
+  "orcid": "0009-0004-2951-4790",
+  "license": { "name": "CC BY 4.0", "url": "https://creativecommons.org/licenses/by/4.0/" },
   "pillars": [
     "AI Infrastructure & Agentic Systems",
     "Higher Education & Pedagogy",

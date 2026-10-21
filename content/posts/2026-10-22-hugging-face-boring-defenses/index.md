@@ -3,6 +3,7 @@ title: "Novel Attackers. Boring Defenses."
 description: "In the July 2026 Hugging Face agent intrusion, every control that limited the damage was old, boring infrastructure hygiene."
 date: 2026-10-22
 pillar: "System Architecture"
+format: research
 keywords: [Hugging Face, security incident, AI agents, agent swarm, least privilege, Kubernetes, incident response, open-weight models]
 visual: visual.svg
 visual_type: image

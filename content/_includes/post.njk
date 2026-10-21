@@ -3,9 +3,11 @@ layout: base.njk
 ---
 {% from "visual.njk" import visual as renderVisual, searchImage %}
 <article class="post" data-pagefind-body>
+  <span data-pagefind-filter="type:Post"></span>
   <p class="meta" data-pagefind-ignore>
     <time datetime="{{ page.date | isoDate }}">{{ page.date | readableDate }}</time>
     {% if pillar %}· <span data-pagefind-filter="pillar">{{ pillar }}</span>{% endif %}
+    {% set formatLabels = { "quick-take": "Quick take", "practice": "From practice", "re-angle": "Revisited" } %}{% if formatLabels[format] %}· <span class="badge">{{ formatLabels[format] }}</span>{% endif %}
     {% if draft %}· <span class="badge">Draft</span>{% endif %}
   </p>
   <h1>{{ title }}</h1>
@@ -26,9 +28,15 @@ layout: base.njk
   <p class="source">Source: <a href="{{ source.url }}">{{ source.name }}</a></p>
   {% endif %}
 
+  {% for a in collections.articles %}{% if (page.inputPath | folder) in (a.data.related or []) %}
+  <p class="part-of" data-pagefind-ignore>Expanded in the article <a href="{{ a.url }}">{{ a.data.title }}</a>.</p>
+  {% endif %}{% endfor %}
+
   {% if keywords %}
   <ul class="tags" aria-label="Keywords">
     {% for k in keywords %}<li data-pagefind-filter="keyword">{{ k }}</li>{% endfor %}
   </ul>
   {% endif %}
+
+  {% include "cite.njk" %}
 </article>
