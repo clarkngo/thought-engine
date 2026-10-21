@@ -1,0 +1,17 @@
+{#- Renders a post's visual. `post` is a collection item; `mode` is "tile" or "full". -#}
+{% macro visual(post, mode="tile") %}
+{%- set d = post.data -%}
+{%- set src = post.url + d.visual -%}
+{%- if d.visual_type == "video" -%}
+<video src="{{ src }}"{% if d.poster %} poster="{{ post.url + d.poster }}"{% endif %} muted loop playsinline {% if mode == "full" %}autoplay controls{% else %}autoplay preload="metadata"{% endif %} aria-label="{{ d.alt }}"></video>
+{%- else -%}
+<img src="{{ src }}" alt="{{ d.alt }}" loading="lazy" decoding="async">
+{%- endif -%}
+{% endmacro %}
+
+{#- Pagefind thumbnail: the image itself, or the poster/cover for video. -#}
+{% macro searchImage(post) %}
+{%- set d = post.data -%}
+{%- set img = d.poster if d.visual_type == "video" else d.visual -%}
+{%- if img %} data-pagefind-meta="image:{{ (post.url + img) | url }}"{% endif -%}
+{% endmacro %}

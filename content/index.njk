@@ -1,0 +1,27 @@
+---
+layout: base.njk
+---
+{% from "visual.njk" import visual %}
+<section class="intro">
+  <h1>{{ site.title }}</h1>
+  <p>{{ site.description }}</p>
+</section>
+
+{% if collections.posts.length %}
+<ol class="post-list">
+  {% for post in collections.posts %}
+  <li>
+    <a class="post-card" href="{{ post.url }}">
+      {% if post.data.visual %}<div class="thumb">{{ visual(post) | safe }}</div>{% endif %}
+      <div>
+        <p class="meta"><time datetime="{{ post.date | isoDate }}">{{ post.date | readableDate }}</time>{% if post.data.pillar %} · {{ post.data.pillar }}{% endif %}{% if post.data.draft %} · <span class="badge">Draft</span>{% endif %}</p>
+        <h2>{{ post.data.title }}</h2>
+        {% if post.data.description %}<p>{{ post.data.description }}</p>{% endif %}
+      </div>
+    </a>
+  </li>
+  {% endfor %}
+</ol>
+{% else %}
+<p class="empty">No posts yet.</p>
+{% endif %}
