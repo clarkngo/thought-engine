@@ -53,7 +53,9 @@ Each post gets its own folder, with its visual beside it:
 ```
 content/posts/YYYY-MM-DD-topic-slug/
   index.md        # the post (website version: Markdown links allowed)
-  visual.gif      # 1:1 visual (or .png/.svg/.mp4)
+  linkedin.md     # copy-paste LinkedIn post + first comment (not published on the site)
+  visual.svg      # animated 1:1 visual shown on the site
+  visual.gif      # LinkedIn export (also visual.mp4)
   cover.png       # still image for a video, or a carousel cover (optional)
   carousel.pdf    # carousel deck (optional)
 ```
@@ -67,7 +69,7 @@ description: "One-sentence summary for the post list and search."
 date: YYYY-MM-DD
 pillar: "AI Infrastructure & Agentic Systems"   # exactly one of the four Core Topics
 keywords: [agents, advising, retention]
-visual: visual.gif                             # file in this folder; omit if no visual yet
+visual: visual.svg                             # file in this folder; omit if no visual yet
 visual_type: image                             # image | video | carousel
 poster: cover.png                              # video only: still frame for gallery and search
 carousel: carousel.pdf                         # carousel only
@@ -82,6 +84,7 @@ draft: true                                    # remove when the visual is commi
 - For a carousel, set `visual` to the cover image and `carousel` to the PDF.
 - Keep `draft: true` until the real visual file exists. Drafts show locally but are left out of the live site.
 - Preview locally with `npm start` (http://localhost:8080/thought-engine/).
+- Statistics must come from the primary source. If a number is derived (e.g. summing a paper's sub-percentages), say so in the first comment.
 
 ## Visual Style & Production
 House style is the **pixel hybrid**: clean diagram layout and clean, readable text, with pixel-art characters and objects (robots, crates, icons) as the moving parts. Pixel art is the accent, never the text.
@@ -89,5 +92,5 @@ House style is the **pixel hybrid**: clean diagram layout and clean, readable te
 - Canvas 1080×1080, background `#f7f5f0` with a faint dot grid, ink `#1b1d21`, accent `#2547d0`, alert `#e8613c`, success `#2f9e6a`. Cards are square-cornered with an 8px offset shadow.
 - Motion explains the mechanism (flow, loss, failure), on one seamless loop (default 6s; every animation duration must divide it). Use `steps()` timing so motion stays chunky.
 - Text at least 22px on the 1080 canvas so it reads on a phone feed. Keep it to a title, labels, and a 3-line framework.
-- Author the visual as an animated SVG in the post folder; pixel sprites are ASCII maps (see `scripts/pixel-sprites.py`). The website shows the SVG.
+- Each visual is a Python script in `scripts/visuals/` (e.g. `handoff.py`, `hf_incident.py`) that uses the shared helpers in `scripts/visuals/pixel.py` (ASCII sprites, title, framework panel, house canvas) and writes `visual.svg` into its post folder. Run it with `python3 scripts/visuals/<name>.py`.
 - Export for LinkedIn with `npm run render -- content/posts/<slug>/<visual>.svg`, which writes a `.gif` (720px) and `.mp4` (1080px) beside it.
