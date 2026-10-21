@@ -7,7 +7,12 @@
   <meta name="description" content="{{ description or site.description }}">
   <meta name="author" content="{{ site.author }}">
   {% if citable %}{% include "citation-meta.njk" %}{% endif %}
+  <script>
+    // Apply a saved light/dark choice before first paint (no flash). Falls back to the system setting.
+    try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
   <link rel="stylesheet" href="/assets/style.css">
+  <script src="/assets/theme.js" defer></script>
   <script src="/assets/copy.js" defer></script>
 </head>
 <body>
@@ -18,6 +23,7 @@
       <a href="/articles/"{% if page.url == "/articles/" %} aria-current="page"{% endif %}>Articles</a>
       <a href="/visuals/"{% if page.url == "/visuals/" %} aria-current="page"{% endif %}>Visuals</a>
       <a href="/search/"{% if page.url == "/search/" %} aria-current="page"{% endif %}>Search</a>
+      <button type="button" class="theme-toggle" aria-label="Switch color theme"><span aria-hidden="true"></span></button>
     </nav>
   </header>
   <main>

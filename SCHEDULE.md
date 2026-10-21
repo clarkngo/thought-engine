@@ -19,7 +19,7 @@ Status: ✅ posted · 🟢 ready · 🟡 drafted, needs review · 🔴 needs Cla
 |---|---|---|---|---|
 | Mon Oct 26 | quick-take | The Plan Is Not the Action | 🟡 | MAST reasoning-action mismatch (13.2%). Flip `draft` off on the day |
 | Tue Oct 27 | article | The Seams Are the System (summary post) | 🟢 | Fold the best comments from Oct 21 and 23 into the article first |
-| Wed Oct 28 | research | TBD | ⚪ | Claude researches and pitches 3 angles by Mon |
+| Wed Oct 28 | research | Better at Practice. Worse at the Exam. | 🟡 | Drafted (Bastani et al., PNAS). Upload `visual-hybrid.gif`. Flip `draft` off on the day |
 | Thu Oct 29 | practice | A CityU moment | 🔴 | Needs your input |
 | Fri Oct 30 | re-angle | "Four rules for the seams" carousel | ⚪ | Built from the article |
 
