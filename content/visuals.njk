@@ -1,0 +1,67 @@
+---
+layout: base.njk
+title: Visuals
+permalink: /visuals/
+---
+{% from "visual.njk" import visual %}
+<section class="intro">
+  <h1>Visuals</h1>
+  <p>Every diagram, animation, and carousel from the posts. Select one to read the post behind it.</p>
+</section>
+
+<div class="gallery-controls">
+  <label class="visually-hidden" for="visual-filter">Filter visuals</label>
+  <input id="visual-filter" type="search" placeholder="Filter by title, keyword, or description" autocomplete="off">
+  <div class="chips" role="group" aria-label="Filter by topic">
+    <button type="button" class="chip" data-pillar="" aria-pressed="true">All</button>
+    {% for p in site.pillars %}<button type="button" class="chip" data-pillar="{{ p }}" aria-pressed="false">{{ p }}</button>{% endfor %}
+  </div>
+</div>
+
+<ul class="gallery" id="gallery">
+  {% for post in collections.visuals %}
+  <li class="tile"
+      data-pillar="{{ post.data.pillar }}"
+      data-text="{{ [post.data.title, post.data.alt, post.data.pillar, (post.data.keywords or []) | join(' ')] | join(' ') | lower }}">
+    <a href="{{ post.url }}">
+      <div class="tile-media">{{ visual(post) | safe }}</div>
+      <div class="tile-caption">
+        <span class="tile-title">{{ post.data.title }}</span>
+        <span class="meta">{{ post.date | readableDate }}{% if post.data.visual_type == "carousel" %} · Carousel{% elif post.data.visual_type == "video" %} · Video{% endif %}{% if post.data.draft %} · Draft{% endif %}</span>
+      </div>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+<p class="empty" id="gallery-empty"{% if collections.visuals.length %} hidden{% endif %}>No visuals match.</p>
+
+<script>
+  (() => {
+    const input = document.getElementById("visual-filter");
+    const chips = [...document.querySelectorAll(".chip")];
+    const tiles = [...document.querySelectorAll("#gallery .tile")];
+    const empty = document.getElementById("gallery-empty");
+    let pillar = "";
+
+    function apply() {
+      const terms = input.value.toLowerCase().split(/\s+/).filter(Boolean);
+      let shown = 0;
+      for (const tile of tiles) {
+        const match = (!pillar || tile.dataset.pillar === pillar) &&
+          terms.every((t) => tile.dataset.text.includes(t));
+        tile.hidden = !match;
+        if (match) shown++;
+      }
+      empty.hidden = shown > 0;
+    }
+
+    input.addEventListener("input", apply);
+    for (const chip of chips) {
+      chip.addEventListener("click", () => {
+        pillar = chip.dataset.pillar;
+        chips.forEach((c) => c.setAttribute("aria-pressed", String(c === chip)));
+        apply();
+      });
+    }
+  })();
+</script>

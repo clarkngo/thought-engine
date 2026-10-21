@@ -1,0 +1,26 @@
+---
+layout: base.njk
+title: Search
+permalink: /search/
+---
+<section class="intro">
+  <h1>Search</h1>
+  <p>Search every post, visual description, and keyword.</p>
+</section>
+
+<link rel="stylesheet" href="/pagefind/pagefind-ui.css">
+<div id="search"></div>
+<script src="/pagefind/pagefind-ui.js"></script>
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    const ui = new PagefindUI({
+      element: "#search",
+      baseUrl: "{{ '/' | url }}",
+      showImages: true,
+      showSubResults: true,
+      resetStyles: false,
+    });
+    const q = new URLSearchParams(location.search).get("q");
+    if (q) ui.triggerSearch(q);
+  });
+</script>
