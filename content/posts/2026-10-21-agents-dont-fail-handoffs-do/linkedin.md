@@ -38,5 +38,6 @@ Category shares are the sums of the paper's per-failure-mode percentages (v3).
 
 ## Visual
 
-Upload `visual.gif` (or `visual.mp4`) from this folder. Render it with:
-npm run render -- content/posts/2026-10-21-agents-dont-fail-handoffs-do/visual.svg
+Upload `visual-hybrid.gif` (or `visual-hybrid.mp4`) from this folder. Re-render with:
+python3 scripts/visuals/handoff_hybrid.py
+npm run render -- content/posts/2026-10-21-agents-dont-fail-handoffs-do/visual-hybrid.svg

@@ -1,0 +1,39 @@
+{#- Scholarly metadata for posts and articles: Google Scholar (Highwire), Dublin Core, and JSON-LD. -#}
+{%- set absUrl = site.url + page.url -%}
+<link rel="canonical" href="{{ absUrl }}">
+<meta name="citation_title" content="{{ title }}">
+<meta name="citation_author" content="{{ site.authorFamily }}, {{ site.authorGiven }}">
+<meta name="citation_author_institution" content="{{ site.affiliation }}">
+<meta name="citation_author_orcid" content="https://orcid.org/{{ site.orcid }}">
+<meta name="citation_publication_date" content="{{ page.date | citationDate }}">
+<meta name="citation_journal_title" content="{{ site.title }}">
+<meta name="citation_abstract_html_url" content="{{ absUrl }}">
+{%- if doi %}
+<meta name="citation_doi" content="{{ doi }}">
+{%- endif %}
+<meta name="DC.title" content="{{ title }}">
+<meta name="DC.creator" content="{{ site.author }}">
+<meta name="DC.date" content="{{ page.date | isoDate }}">
+<meta name="DC.rights" content="{{ site.license.url }}">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{{ 'ScholarlyArticle' if kind == 'Article' else 'BlogPosting' }}",
+  "headline": {{ title | dump | safe }},
+  "description": {{ (abstract or description or '') | dump | safe }},
+  "datePublished": "{{ page.date | isoDate }}",
+  "url": "{{ absUrl }}",
+  "license": "{{ site.license.url }}",
+  {%- if doi %}
+  "identifier": "https://doi.org/{{ doi }}",
+  {%- endif %}
+  "keywords": {{ (keywords or []) | dump | safe }},
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.author }}",
+    "identifier": "https://orcid.org/{{ site.orcid }}",
+    "affiliation": { "@type": "CollegeOrUniversity", "name": "{{ site.affiliation }}" }
+  },
+  "publisher": { "@type": "Organization", "name": "{{ site.title }}" }
+}
+</script>

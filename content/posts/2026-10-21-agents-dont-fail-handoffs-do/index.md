@@ -3,10 +3,11 @@ title: "Agents Don't Fail. Handoffs Do."
 description: "UC Berkeley's MAST study traced about a third of multi-agent failures to the seams between agents, not to the models inside them."
 date: 2026-10-21
 pillar: "AI Infrastructure & Agentic Systems"
+format: research
 keywords: [multi-agent systems, agent handoffs, MAST, verification, orchestration, LLM failures]
-visual: visual.svg
+visual: visual-hybrid.svg
 visual_type: image
-alt: "Pixel robots labeled Intake, Planner, and Executor pass a context crate holding goal, constraints, and history. At the second handoff two blocks fall out, and the Executor acts on 1 of 3."
+alt: "Pixel robots labeled Intake, Planner, and Executor sit above a flat diagram of the handoff: a context packet holding goal, constraints, and history travels between them. At the second handoff two blocks fall out, and the Executor acts on 1 of 3."
 source:
   name: "Cemri et al., Why Do Multi-Agent LLM Systems Fail? (UC Berkeley, arXiv 2503.13657)"
   url: "https://arxiv.org/abs/2503.13657"
