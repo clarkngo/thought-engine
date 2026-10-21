@@ -244,3 +244,13 @@ main { padding-block: 32px 64px; }
 @media (max-width: 720px) {
   .visual-strip { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
+
+/* Theme toggle */
+.site-header nav { align-items: center; }
+.theme-toggle {
+  font: inherit; font-size: 1rem; line-height: 1; cursor: pointer;
+  width: 34px; height: 34px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--surface); color: var(--text);
+  display: inline-grid; place-items: center;
+}
+.theme-toggle:hover { border-color: var(--accent); }
