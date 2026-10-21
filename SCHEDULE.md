@@ -8,7 +8,7 @@ Status: ✅ posted · 🟢 ready · 🟡 drafted, needs review · 🔴 needs Cla
 
 | Date | Format | Post | Status | Notes |
 |---|---|---|---|---|
-| Wed Oct 21 | research | Agents Don't Fail. Handoffs Do. | 🟢 | Upload `visual-hybrid.gif` |
+| Wed Oct 21 | research | Agents Don't Fail. Handoffs Do. | ✅ | Posted. Reply to comments today; note strong ones for the article |
 | Thu Oct 22 | practice | A CityU moment (your pick) | 🔴 | Needs a real moment from you; see prompts below |
 | Fri Oct 23 | research | Novel Attackers. Boring Defenses. | 🟢 | Check the OpenAI attribution line against OpenAI's post first |
 | Weekend | — | Ship the site; get a Zenodo DOI for the article | ⚪ | DOI steps in CLAUDE.md → Articles |
