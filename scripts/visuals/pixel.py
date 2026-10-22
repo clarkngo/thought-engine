@@ -115,3 +115,63 @@ def framework(heading, lines):
   <g font-size="25" fill="#d9dce3">
     {items}
   </g>"""
+
+
+# --- Hybrid layout (pixel actors on top, flat diagram below). See CLAUDE.md "Hybrid alternate". ---
+
+SPLIT_Y = 500
+
+
+def hybrid_document(pixel_top, flat_bottom, style, comment):
+    """1080 canvas: dot grid and crisp pixels above SPLIT_Y, plain paper and smooth shapes below."""
+    base = BASE_STYLE.replace(
+        "rect, path { shape-rendering: crispEdges; }", ".px rect, .px path { shape-rendering: crispEdges; }"
+    )
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080" font-family="{FONT}">
+  <!-- {comment} -->
+  <style>{base}{style}  </style>
+  <defs>
+    <pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="2" height="2" fill="#dcd8cd"/>
+    </pattern>
+  </defs>
+  <rect width="1080" height="1080" fill="#f7f5f0"/>
+  <g class="px">
+  <rect width="1080" height="{SPLIT_Y}" fill="url(#grid)"/>{pixel_top}
+  </g>{flat_bottom}
+</svg>
+"""
+
+
+def divider(label):
+    """Thin rule and small caps label that starts the flat half."""
+    return f"""
+  <path d="M60 {SPLIT_Y + 20} H1020" stroke="#d8d4c9" stroke-width="2"/>
+  <text x="60" y="{SPLIT_Y + 52}" font-size="20" font-weight="800" fill="#5d6470" letter-spacing="2">{label}</text>"""
+
+
+def flat_panel(heading, lines):
+    """Rounded takeaway panel (flat counterpart of framework())."""
+    items = "\n    ".join(
+        f'<text x="100" y="{928 + i * 36}">{i + 1}. {line}</text>' for i, line in enumerate(lines)
+    )
+    return f"""
+  <rect x="60" y="830" width="960" height="190" rx="20" fill="{INK}"/>
+  <text x="100" y="878" font-size="30" font-weight="800" fill="#fff">{heading}</text>
+  <g font-size="25" fill="#d9dce3">
+    {items}
+  </g>"""
+
+
+def pixel_card(cx, label, art, delay=0.0, label_size=25):
+    """Square pixel card with a bobbing 12x12 sprite (the robot/student/professor cards)."""
+    x = cx - 120
+    return f"""
+  <g>
+    <rect x="{x + 8}" y="278" width="240" height="220" fill="{INK}"/>
+    <rect x="{x}" y="270" width="240" height="220" fill="#fff" stroke="{INK}" stroke-width="4"/>
+    <g class="bob" style="animation-delay:{delay:.1f}s">
+      {sprite(art, cx - 48, 300)}
+    </g>
+    <text x="{cx}" y="458" font-size="{label_size}" font-weight="700" fill="{INK}" text-anchor="middle">{label}</text>
+  </g>"""
