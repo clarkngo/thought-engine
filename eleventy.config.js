@@ -16,6 +16,18 @@ const slugify = (text) =>
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
 
+const contentFolders = (section) => {
+  const dir = path.join("content", section);
+  return existsSync(dir) ? readdirSync(dir).filter((f) => existsSync(path.join(dir, f, "index.md"))) : [];
+};
+
+// True when the folder's index.md front matter says `draft: true`.
+function isDraftFolder(section, folder) {
+  const text = readFileSync(path.join("content", section, folder, "index.md"), "utf8");
+  const frontMatter = text.match(/^---\n([\s\S]*?)\n---/);
+  return Boolean(frontMatter && /^draft:\s*true\s*$/m.test(frontMatter[1]));
+}
+
 // Reads content/<section>/*/linkedin.md into { post, firstComment } blocks for the local Studio page.
 function readLinkedInCopy() {
   const entries = [];
@@ -51,7 +63,11 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(HtmlBasePlugin);
 
   for (const section of SECTIONS) {
-    eleventyConfig.addPassthroughCopy(`content/${section}/**/*.{gif,png,jpg,jpeg,webp,svg,mp4,webm,pdf}`);
+    // Copy each folder's visuals, but in production skip drafts so unposted work isn't reachable by URL.
+    for (const folder of contentFolders(section)) {
+      if (isProduction && isDraftFolder(section, folder)) continue;
+      eleventyConfig.addPassthroughCopy(`content/${section}/${folder}/*.{gif,png,jpg,jpeg,webp,svg,mp4,webm,pdf}`);
+    }
     // linkedin.md holds the copy-paste LinkedIn text; it isn't a site page.
     eleventyConfig.ignores.add(`content/${section}/*/linkedin.md`);
   }
