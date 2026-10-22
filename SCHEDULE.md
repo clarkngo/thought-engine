@@ -23,6 +23,28 @@ Status: ✅ posted · 🟢 ready · 🟡 drafted, needs review · 🔴 needs Cla
 | Thu Oct 29 | practice | A CityU moment | 🔴 | Needs your input |
 | Fri Oct 30 | re-angle | "Four rules for the seams" carousel | ⚪ | Built from the article |
 
+## Week of Nov 2
+
+| Date | Format | Post | Status | Notes |
+|---|---|---|---|---|
+| Mon Nov 2 | research | Same AI. Opposite Results. | 🟡 | PNAS vs Harvard trials. Upload `visual-hybrid.gif` |
+| Tue Nov 3 | quick-take | Guardrails Have an Off Switch | 🟡 | 50% of 885 CS1 students clicked "See Solution" |
+| Wed Nov 4 | research | Teach Verification, Not Syntax | 🟡 | CS1 oral code reviews + NUS–Google report. Upload `visual-hybrid.gif` |
+| Thu Nov 5 | practice | A CityU moment | 🔴 | Needs your input |
+| Fri Nov 6 | quick-take | The Inverted Pyramid | 🟡 | Creating 39.8% vs Remembering 1.8% (Anthropic) |
+
+## Week of Nov 9
+
+| Date | Format | Post | Status | Notes |
+|---|---|---|---|---|
+| Mon Nov 9 | research | The Training Paradox | 🟡 | 64% trained vs 29% (17% US & Canada). Upload `visual-hybrid.gif` |
+| Tue Nov 10 | quick-take | Confidence Is the Variable | 🟡 | Microsoft/CMU, CHI 2025 |
+| Wed Nov 11 | research | Faculty Are Most Confident Where Students Are Least | 🟡 | 58% vs 19% (DEC). Upload `visual-hybrid.gif` |
+| Thu Nov 12 | practice | A CityU moment | 🔴 | Needs your input |
+| Fri Nov 13 | re-angle | TBD | ⚪ | Reply to the best comment of the two weeks, or a carousel |
+
+Article due after Nov 11: "Performance Is Not Learning: Designing Courses for the Age of AI" (combines Oct 28, Nov 2, Nov 4; Nov 9 and Nov 11 as supporting evidence).
+
 ## Practice-post prompts (pick one, reply in a few sentences)
 
 - A question a student asked this term that the textbook or syllabus didn't answer well.

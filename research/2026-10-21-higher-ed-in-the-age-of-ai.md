@@ -41,3 +41,44 @@ Verified against primary sources unless marked. Use these exact figures in draft
 - Manikonda et al. (2026), arXiv:2609.18676, under review: 118 students, 12 AI-related courses; evaluation literacy moderates reliance effects. Small, single institution.
 - EDUCAUSE 2026 "The Impact of AI on Learning Assessment" (438 respondents, March 2026): page blocked; findings not read.
 - Bouvier et al. (2026, ACM), "The Rest of the Robots": research gap on GenAI in upper-level computing courses.
+
+---
+
+# Round 2 (2026-10-21): design, guardrails, and teaching AI courses
+
+## Kestin et al. (2025), "AI tutoring outperforms in-class active learning," Scientific Reports 15:17458 (primary, PMC12179260)
+- Randomized crossover trial, Harvard intro physics for life sciences (PS2, Fall 2023); 194 eligible students; each student had both conditions (AI tutor at home vs in-class active learning).
+- Median post-test 4.5 (AI) vs 3.5 (in-class), pre-test 2.75: AI median gain "over double." Mann-Whitney z = -5.6, p < 10^-8. Effect size 0.63 (regression; likely underestimate due to ceiling), 0.73–1.3 SD (quantile regression).
+- Median time 49 min (AI) vs 60 min in class; time didn't correlate with scores.
+- Engagement 4.1 vs 3.6; motivation 3.4 vs 3.1 (5-point). 83% rated AI explanations at least as good as human instructors'.
+- Design: system prompt encoding active engagement, cognitive load, growth mindset; platform stepped students through each part of each problem; step-by-step answers pre-written into prompts for accuracy.
+- Not clearly stated that the tutor withheld answers. Authors: do not presume structured AI tutoring always outperforms active learning, especially for complex synthesis.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/
+
+## Kapoor, Diaz, MacNeil, Porter, Denny (2025), arXiv:2504.11146, "Exploring Student Behaviors and Motivations using AI TAs with Optional Guardrails"
+- Large intro programming course, 885 students; a "See Solution" button turned guardrails off.
+- 50% used it for at least one problem; 14% for all three.
+- Low-performing students more likely to use it, started later, used it close to the deadline. Motivations: problem help, time pressure, lack of self-regulation, curiosity.
+- https://arxiv.org/abs/2504.11146
+
+## Azimi (2026), arXiv:2609.16784, "AI literacy over tool design" (pilot, n = 33 master's students, 7 weeks)
+- Scaffolded AI "Study Coach" (hints, no code, hint budget, reflection) vs unrestricted AI: no difference in assignment performance.
+- Students who set their own rules for AI use did better in both conditions; most model-literate students scored highest.
+- Quote: "The design of the tool mattered less than the students' capacity to govern their own use of it." Small, single institution, associational.
+
+## Anthropic Education Report (Apr 8, 2025), primary
+- 574,740 academic conversations from ~1M student conversations on Claude.ai (18 days).
+- ~47% "Direct" (resolve the query quickly) vs collaborative.
+- Bloom's level of Claude's responses: Creating 39.8%, Analyzing 30.2%, Applying 10.9%, Understanding 10.0%, Remembering 1.8%.
+- Computer science: 36.8% of conversations (38.6% in body text) vs 5.4% of U.S. bachelor's degrees.
+- https://www.anthropic.com/research/anthropic-education-report-how-university-students-use-claude
+
+## Lee et al. (CHI 2025), Microsoft Research / CMU (survey, self-report)
+- 319 knowledge workers, 936 examples. Higher confidence in AI → less critical thinking; higher self-confidence → more. Critical thinking shifts toward verification, integration, and task stewardship.
+- https://www.microsoft.com/en-us/research/?p=1135061
+
+## Teaching CS / AI courses
+- Lee, Soh, Denny, Burnett, et al. (2026), arXiv:2606.07545, NUS–Google workshop report (23 authors): implementation-level skills losing centrality; shift toward "understanding and verifying AI-generated artifacts"; emphasize system design, abstraction, critical evaluation; five reform prerequisites incl. "re-centering fundamental education" and "embracing new pedagogies."
+- Fowles, Falor, Bhattarai, Edwards, Poulsen (2026), arXiv:2605.21374: CS1 allowed AI with weekly oral code-review interviews + flipped classroom; pasted-character share rose (more AI use) but exam averages showed no statistically significant change vs prior semesters; students positive about code reviews.
+- Secondary-school "learning penalty" (CEPR VoxEU column, China grades 7–12): homework time down, homework scores up, exam scores down. Page blocked (403); not verified.
+- EDUCAUSE 2026 assessment report (438 respondents, Mar 2–14, 2026): summary only, most respondents use AI to create/administer assessments and believe students use AI during them; students need clearer policies. No percentages verified.
