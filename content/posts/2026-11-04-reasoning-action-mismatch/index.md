@@ -2,7 +2,7 @@
 draft: true
 title: "The Plan Is Not the Action"
 description: "In UC Berkeley's MAST study, agents reasoning one plan and executing another was the second most frequent of 14 failure modes."
-date: 2026-10-26
+date: 2026-11-04
 pillar: "AI Infrastructure & Agentic Systems"
 format: quick-take
 keywords: [multi-agent systems, reasoning-action mismatch, MAST, verification, chain of thought]

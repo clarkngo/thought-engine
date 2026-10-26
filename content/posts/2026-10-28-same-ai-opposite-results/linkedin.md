@@ -8,7 +8,7 @@ The same kind of AI.
 
 Opposite results.
 
-Trial one (PNAS): nearly 1,000 high school math students. Those who practiced with a ChatGPT-style assistant scored 17% lower on the exam than students who never had AI.
+Trial one (PNAS, the one I shared Monday): nearly 1,000 high school math students. Those who practiced with a ChatGPT-style assistant scored 17% lower on the exam than students who never had AI.
 
 Trial two (Harvard, Scientific Reports): 194 undergraduates in intro physics. A structured AI tutor at home produced a median learning gain more than double that of an in-class active-learning lesson. In less time.
 
@@ -45,4 +45,4 @@ The "over 2×" is the Harvard authors' own description of the median gain.
 
 ## Visual
 
-Upload `visual-hybrid.gif` (or `.mp4`). Re-render: python3 scripts/visuals/same_ai_opposite.py, then npm run render -- content/posts/2026-11-02-same-ai-opposite-results/visual-hybrid.svg
+Upload `visual-hybrid.gif` (or `.mp4`). Re-render: python3 scripts/visuals/same_ai_opposite.py, then npm run render -- content/posts/2026-10-28-same-ai-opposite-results/visual-hybrid.svg

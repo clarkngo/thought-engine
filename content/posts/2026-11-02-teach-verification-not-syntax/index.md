@@ -2,7 +2,7 @@
 draft: true
 title: "Teach Verification, Not Syntax"
 description: "One CS1 course allowed AI and added weekly oral code reviews. AI use rose; exam averages held steady. The assessment moved from the artifact to the explanation."
-date: 2026-11-04
+date: 2026-11-02
 pillar: "EdTech & Developer Workflows"
 format: research
 keywords: [CS education, CS1, oral code review, verification, assessment, curriculum, generative AI]

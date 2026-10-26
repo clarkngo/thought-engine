@@ -47,4 +47,4 @@ Also cited: Digital Education Council, AI in Higher Education Global Survey 2026
 
 Upload `visual-hybrid.gif` (or `visual-hybrid.mp4`) from this folder. Re-render with:
 python3 scripts/visuals/practice_exam_hybrid.py
-npm run render -- content/posts/2026-10-28-better-at-practice-worse-at-the-exam/visual-hybrid.svg
+npm run render -- content/posts/2026-10-26-better-at-practice-worse-at-the-exam/visual-hybrid.svg
