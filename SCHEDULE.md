@@ -9,8 +9,8 @@ Status: ✅ posted · 🟢 ready · 🟡 drafted, needs review · 🔴 needs Cla
 | Date | Format | Post | Status | Notes |
 |---|---|---|---|---|
 | Wed Oct 21 | research | Agents Don't Fail. Handoffs Do. | ✅ | Posted. Reply to comments today; note strong ones for the article |
-| Thu Oct 22 | practice | A CityU moment (your pick) | — | Skipped |
-| Fri Oct 23 | article | The Seams Are the System (summary post) | ✅ | Posted (moved up from Oct 27). Reply to comments; note strong ones for the article |
+| Thu Oct 22 | research | Novel Attackers. Boring Defenses. | ✅ | Posted (took the practice slot) |
+| Fri Oct 23 | article | The Seams Are the System (summary post) | ✅ | Posted. Reply to comments; note strong ones for the article |
 | Weekend | — | Get a Zenodo DOI for the article (it's live) | ⚪ | DOI steps in CLAUDE.md → Articles |
 
 ## Week of Oct 26
@@ -18,7 +18,7 @@ Status: ✅ posted · 🟢 ready · 🟡 drafted, needs review · 🔴 needs Cla
 | Date | Format | Post | Status | Notes |
 |---|---|---|---|---|
 | Mon Oct 26 | quick-take | The Plan Is Not the Action | 🟡 | MAST reasoning-action mismatch (13.2%). Flip `draft` off on the day |
-| Tue Oct 27 | research | Novel Attackers. Boring Defenses. | 🟢 | Moved from Oct 23. Check the OpenAI attribution line against OpenAI's post first |
+| Tue Oct 27 | quick-take | Only 5% Say It Transformed Learning | 🟡 | DEC 2026: students' verdict on AI in their courses. Flip `draft` off on the day |
 | Wed Oct 28 | research | Better at Practice. Worse at the Exam. | 🟡 | Drafted (Bastani et al., PNAS). Upload `visual-hybrid.gif`. Flip `draft` off on the day |
 | Thu Oct 29 | practice | A CityU moment | 🔴 | Needs your input |
 | Fri Oct 30 | re-angle | "Four rules for the seams" carousel | ⚪ | Built from the article |
