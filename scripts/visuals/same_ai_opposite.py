@@ -7,7 +7,7 @@ GRAY = "#9aa1ad"
 
 if __name__ == "__main__":
     build(
-        slug="2026-11-02-same-ai-opposite-results",
+        slug="2026-10-28-same-ai-opposite-results",
         script="same_ai_opposite.py",
         lines=("Same AI.", "Opposite results.", "Two randomized trials · PNAS 2025 · Scientific Reports 2025"),
         cards=[(STUDENT, "Unguarded AI", ANSWER), (STUDENT, "Structured tutor", STEPS)],

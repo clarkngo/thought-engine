@@ -10,7 +10,7 @@ from handoff import ROBOT
 from people import BUBBLE_PX, CODE, PROFESSOR, QUESTION, STUDENT
 from pixel import ALERT, INK, SUCCESS, divider, flat_panel, hybrid_document, pixel_card, sprite, title
 
-OUT = Path(__file__).resolve().parents[2] / "content/posts/2026-11-04-teach-verification-not-syntax/visual-hybrid.svg"
+OUT = Path(__file__).resolve().parents[2] / "content/posts/2026-11-02-teach-verification-not-syntax/visual-hybrid.svg"
 
 LESS = ["Implementation-level coding", "Hand debugging and testing", "Writing documentation"]
 MORE = ["Verifying AI-generated work", "System design and abstraction", "Critical evaluation"]

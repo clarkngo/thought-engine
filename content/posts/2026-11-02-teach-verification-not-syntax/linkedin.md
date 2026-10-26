@@ -41,4 +41,4 @@ What's the one skill in your field that matters more now that AI can write the f
 
 ## Visual
 
-Upload `visual-hybrid.gif` (or `.mp4`). Re-render: python3 scripts/visuals/verification.py, then npm run render -- content/posts/2026-11-04-teach-verification-not-syntax/visual-hybrid.svg
+Upload `visual-hybrid.gif` (or `.mp4`). Re-render: python3 scripts/visuals/verification.py, then npm run render -- content/posts/2026-11-02-teach-verification-not-syntax/visual-hybrid.svg

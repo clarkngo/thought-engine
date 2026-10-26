@@ -1,16 +1,21 @@
 """Hybrid visual for "Better at Practice. Worse at the Exam." (2026-10-28).
 
-Top (pixel): three students, one per arm of Bastani et al. (PNAS 2025): no AI, ChatGPT-style, guardrailed tutor.
+Top (pixel): one card per arm of Bastani et al. (PNAS 2025). During practice the AI sits beside the student:
+the ChatGPT-style robot hands over answers (student: check), the tutor robot gives a hint (student: works the steps).
+At the exam the robots leave: the ChatGPT-style student is left with a question mark, the others keep working.
 Bottom (flat): scores relative to the no-AI group. Practice bars grow (+48%, +127%), then the AI is removed
 and the bars shrink to exam results (-17%, no drop).
 """
 from pathlib import Path
 
+from handoff import ROBOT
+from people import CHECK, STEPS
 from pixel import ALERT, BASE_STYLE, FONT, INK, PALETTE, SUCCESS, sprite, title
 
-OUT = Path(__file__).resolve().parents[2] / "content/posts/2026-10-28-better-at-practice-worse-at-the-exam/visual-hybrid.svg"
+OUT = Path(__file__).resolve().parents[2] / "content/posts/2026-10-26-better-at-practice-worse-at-the-exam/visual-hybrid.svg"
 SPLIT_Y = 500
-BUBBLE_PX = 6
+BUBBLE_PX = 5
+ACTOR_PX = 6  # student and robot share a card, so both are drawn smaller
 
 PALETTE.update({"K": "#f2c9a0", "H": "#3b2a20"})  # skin, hair
 
@@ -79,17 +84,35 @@ ROW_Y = [586, 646, 706]
 BAR_H = 40
 
 
+def actor(art, x, delay, cls=""):
+    c = f' class="{cls}"' if cls else ""
+    return f"""
+    <g{c}><g class="bob" style="animation-delay:{delay:.1f}s">{sprite(art, x, 344, ACTOR_PX)}</g></g>"""
+
+
+def bubble(art, x, cls):
+    return f'\n    <g class="{cls}">{sprite(art, x, 284, BUBBLE_PX)}</g>'
+
+
 def student_card(i):
+    """No AI: student alone, working. With AI: student left, robot right; the robot leaves at the exam."""
     cx = CENTERS[i]
     x = cx - 120
     label = ARMS[i][0]
+    if i == 0:
+        body = actor(STUDENT, cx - 36, 0) + bubble(STEPS, cx - 22, "always")
+    else:
+        sx, rx = cx - 96, cx + 24
+        body = actor(STUDENT, sx, i * 0.2) + actor(ROBOT, rx, i * 0.2 + 0.3, "robot")
+        if i == 1:  # hands over the answer; at the exam the student is stuck
+            body += bubble(ANSWER, rx + 14, "practice-px") + bubble(CHECK, sx + 14, "practice-px")
+            body += bubble(QUESTION, sx + 14, "exam-px")
+        else:  # gives a hint; the student does the steps, with or without it
+            body += bubble(BULB, rx + 18, "practice-px") + bubble(STEPS, sx + 14, "always")
     return f"""
   <g>
     <rect x="{x + 8}" y="278" width="240" height="220" fill="{INK}"/>
-    <rect x="{x}" y="270" width="240" height="220" fill="#fff" stroke="{INK}" stroke-width="4"/>
-    <g class="bob" style="animation-delay:{i * 0.2:.1f}s">
-      {sprite(STUDENT, cx - 48, 300)}
-    </g>
+    <rect x="{x}" y="270" width="240" height="220" fill="#fff" stroke="{INK}" stroke-width="4"/>{body}
     <text x="{cx}" y="458" font-size="25" font-weight="700" fill="{INK}" text-anchor="middle">{label}</text>
   </g>"""
 
@@ -111,10 +134,12 @@ def bar_row(i):
 
 STYLE = """
     /* Pixel half: stepped. */
-    .answer { animation: answer 6s steps(1) infinite; }
-    @keyframes answer { 0% { opacity: 0; } 8% { opacity: 1; } 48% { opacity: 0; } }
-    .confused { animation: confused 6s steps(1) infinite; }
-    @keyframes confused { 0% { opacity: 0; } 54% { opacity: 1; } 94% { opacity: 0; } }
+    .practice-px { animation: practice-px 6s steps(1) infinite; }
+    @keyframes practice-px { 0% { opacity: 0; } 8% { opacity: 1; } 48% { opacity: 0; } }
+    .exam-px { animation: exam-px 6s steps(1) infinite; }
+    @keyframes exam-px { 0% { opacity: 0; } 56% { opacity: 1; } 94% { opacity: 0; } }
+    .robot { animation: robot 6s steps(1) infinite; }
+    @keyframes robot { 0% { opacity: 1; } 50% { opacity: 0; } 96% { opacity: 1; } }
 
     /* Flat half: smooth. */
     .bar { transform-box: fill-box; transform-origin: left center; animation-duration: 6s; animation-iteration-count: infinite; animation-timing-function: linear; }
@@ -134,10 +159,7 @@ def main():
   <!-- Pixel world: the three groups of students -->
   <rect width="1080" height="{SPLIT_Y}" fill="url(#grid)"/>
   {title("Better at practice.", "Worse at the exam.", "Randomized trial · ~1,000 students · PNAS 2025")}
-  {"".join(student_card(i) for i in range(3))}
-  <g class="answer">{sprite(ANSWER, CENTERS[1] + 60, 282, BUBBLE_PX)}</g>
-  <g class="confused">{sprite(QUESTION, CENTERS[1] + 60, 282, BUBBLE_PX)}</g>
-  {sprite(BULB, CENTERS[2] + 66, 284, BUBBLE_PX)}"""
+  {"".join(student_card(i) for i in range(3))}"""
 
     flat_bottom = f"""
   <!-- Flat world: the scores -->

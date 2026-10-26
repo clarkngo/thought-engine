@@ -13,23 +13,23 @@ Status: ✅ posted · 🟢 ready · 🟡 drafted, needs review · 🔴 needs Cla
 | Fri Oct 23 | article | The Seams Are the System (summary post) | ✅ | Posted. Reply to comments; note strong ones for the article |
 | Weekend | — | Get a Zenodo DOI for the article (it's live) | ⚪ | DOI steps in CLAUDE.md → Articles |
 
-## Week of Oct 26
+## Week of Oct 26: Higher ed and AI, problem → solutions
 
 | Date | Format | Post | Status | Notes |
 |---|---|---|---|---|
-| Mon Oct 26 | quick-take | The Plan Is Not the Action | 🟡 | MAST reasoning-action mismatch (13.2%). Flip `draft` off on the day |
-| Tue Oct 27 | quick-take | Only 5% Say It Transformed Learning | 🟡 | DEC 2026: students' verdict on AI in their courses. Flip `draft` off on the day |
-| Wed Oct 28 | research | Better at Practice. Worse at the Exam. | 🟡 | Drafted (Bastani et al., PNAS). Upload `visual-hybrid.gif`. Flip `draft` off on the day |
-| Thu Oct 29 | practice | A CityU moment | 🔴 | Needs your input |
-| Fri Oct 30 | re-angle | "Four rules for the seams" carousel | ⚪ | Built from the article |
+| Mon Oct 26 | research | Better at Practice. Worse at the Exam. | ✅ | Posted. The problem (Bastani et al., PNAS). Reply to comments; note strong ones for the article |
+| Tue Oct 27 | quick-take | Only 5% Say It Transformed Learning | 🟡 | The gap at scale (DEC 2026). Flip `draft` off on the day |
+| Wed Oct 28 | research | Same AI. Opposite Results. | 🟡 | Solution: design the tool (PNAS vs Harvard). Refers back to Monday. Upload `visual-hybrid.gif` |
+| Thu Oct 29 | practice | A CityU moment: something you changed because of AI | 🔴 | Needs your input. Your own solution in practice is the strongest post of the week |
+| Fri Oct 30 | re-angle | Five Moves for Teaching With AI | 🟡 | Solutions roundup of the week. Text-only, or a 6-slide carousel |
 
 ## Week of Nov 2
 
 | Date | Format | Post | Status | Notes |
 |---|---|---|---|---|
-| Mon Nov 2 | research | Same AI. Opposite Results. | 🟡 | PNAS vs Harvard trials. Upload `visual-hybrid.gif` |
+| Mon Nov 2 | research | Teach Verification, Not Syntax | 🟡 | Solution: change the assessment (CS1 oral code reviews + NUS–Google report). Upload `visual-hybrid.gif` |
 | Tue Nov 3 | quick-take | Guardrails Have an Off Switch | 🟡 | 50% of 885 CS1 students clicked "See Solution" |
-| Wed Nov 4 | research | Teach Verification, Not Syntax | 🟡 | CS1 oral code reviews + NUS–Google report. Upload `visual-hybrid.gif` |
+| Wed Nov 4 | quick-take | The Plan Is Not the Action | 🟡 | Change of pace: agents (MAST reasoning-action mismatch, 13.2%) |
 | Thu Nov 5 | practice | A CityU moment | 🔴 | Needs your input |
 | Fri Nov 6 | quick-take | The Inverted Pyramid | 🟡 | Creating 39.8% vs Remembering 1.8% (Anthropic) |
 
@@ -41,9 +41,9 @@ Status: ✅ posted · 🟢 ready · 🟡 drafted, needs review · 🔴 needs Cla
 | Tue Nov 10 | quick-take | Confidence Is the Variable | 🟡 | Microsoft/CMU, CHI 2025 |
 | Wed Nov 11 | research | Faculty Are Most Confident Where Students Are Least | 🟡 | 58% vs 19% (DEC). Upload `visual-hybrid.gif` |
 | Thu Nov 12 | practice | A CityU moment | 🔴 | Needs your input |
-| Fri Nov 13 | re-angle | TBD | ⚪ | Reply to the best comment of the two weeks, or a carousel |
+| Fri Nov 13 | re-angle | "Four rules for the seams" carousel, or reply to the best comment | ⚪ | Moved from Oct 30 |
 
-Article due after Nov 11: "Performance Is Not Learning: Designing Courses for the Age of AI" (combines Oct 28, Nov 2, Nov 4; Nov 9 and Nov 11 as supporting evidence).
+Article due after Nov 11: "Performance Is Not Learning: Designing Courses for the Age of AI" (combines Oct 26, Oct 28, Oct 30, Nov 2; Nov 9 and Nov 11 as supporting evidence). Could move up to the week of Nov 9 if this week's comments are strong.
 
 ## Practice-post prompts (pick one, reply in a few sentences)
 

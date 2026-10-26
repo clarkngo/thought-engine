@@ -1,8 +1,7 @@
 ---
-draft: true
 title: "Better at Practice. Worse at the Exam."
 description: "In a randomized trial, students with ChatGPT-style help scored 48% higher in practice and 17% lower on the exam once the AI was removed."
-date: 2026-10-28
+date: 2026-10-26
 pillar: "Higher Education & Pedagogy"
 format: research
 keywords: [generative AI, teaching with AI, assessment, AI tutors, guardrails, learning outcomes, randomized trial, higher education]
