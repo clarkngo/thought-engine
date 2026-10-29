@@ -18,10 +18,10 @@ Status: ✅ posted · 🟢 ready · 🟡 drafted, needs review · 🔴 needs Cla
 | Date | Format | Post | Status | Notes |
 |---|---|---|---|---|
 | Mon Oct 26 | research | Better at Practice. Worse at the Exam. | ✅ | Posted. The problem (Bastani et al., PNAS). Reply to comments; note strong ones for the article |
-| Tue Oct 27 | quick-take | Only 5% Say It Transformed Learning | 🟡 | The gap at scale (DEC 2026). Flip `draft` off on the day |
-| Wed Oct 28 | research | Same AI. Opposite Results. | 🟡 | Solution: design the tool (PNAS vs Harvard). Refers back to Monday. Upload `visual-hybrid.gif` |
-| Thu Oct 29 | practice | A CityU moment: something you changed because of AI | 🔴 | Needs your input. Your own solution in practice is the strongest post of the week |
-| Fri Oct 30 | re-angle | Five Moves for Teaching With AI | 🟡 | Solutions roundup of the week. Text-only, or a 6-slide carousel |
+| Tue Oct 27 | quick-take | Only 5% Say It Transformed Learning | ✅ | Posted. Reply to comments; note strong ones for the article |
+| Wed Oct 28 | research | Same AI. Opposite Results. | ✅ | Posted. Reply to comments; note strong ones for the article |
+| Thu Oct 29 | practice | Create Comes First | ✅ | Posted. Reply to comments; note strong ones for the article |
+| Fri Oct 30 | re-angle | Five Moves for Teaching With AI | 🟡 | Solutions roundup of the week. Needs its visual: a 6-slide carousel (cover + one move per slide) |
 
 ## Week of Nov 2
 

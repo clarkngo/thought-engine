@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Same AI. Opposite Results."
 description: "Two randomized trials: an unguarded AI assistant lowered exam scores 17%, while a structured AI tutor more than doubled learning gains over active learning. Design decides the direction."
 date: 2026-10-28
