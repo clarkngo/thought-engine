@@ -23,3 +23,7 @@ What would it take for your course's AI integration to land in the 5%?
 🔗 Digital Education Council, AI in Higher Education Global Survey 2026 (27,284 students across 35 countries): https://www.digitaleducationcouncil.com
 
 Figures are among students who said they had experienced AI integration in their courses.
+
+## Visual
+
+Upload `visual-hybrid.gif` (or `.mp4`) from this folder. Re-render: python3 scripts/visuals/five_percent.py, then npm run render -- content/posts/2026-10-27-only-five-percent-transformed/visual-hybrid.svg

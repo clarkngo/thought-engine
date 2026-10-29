@@ -96,12 +96,13 @@ Clark posts on LinkedIn **every weekday** and reviews and replies to comments da
 | Format (`format:`) | Typical day | What it is | Length |
 |---|---|---|---|
 | `research` | Mon, Wed | The full post format above: primary source, mechanism, framework, visual | Full |
-| `quick-take` | Tue | One striking number or finding from a source already used, plus one sentence of meaning and a question. Text-only is fine | 3–6 short lines |
+| `quick-take` | Tue | One striking number or finding from a source already used, plus one sentence of meaning and a question. Gets a simple stat visual (e.g. a 100-person grid or a few bars via `scripts/visuals/hybrid_stats.py`) | 3–6 short lines |
 | `practice` | Thu | A real moment from Clark's work at City University of Seattle (class, student question, something tried) tied to a core topic. **Needs Clark's input; never invent the moment** | Short |
 | `re-angle` | Fri | Reuse: a carousel or quote card from an article, a reply to the week's best comment, or a hybrid/flat visual of an earlier post | Short |
 | `article` | when due | The article's summary post (see Articles) replaces that week's re-angle or one research slot | Full |
 
 - Every format still follows the LinkedIn rules: no links in the body, source named in-text, link in the first comment.
+- **Every post ships with a visual** (Clark's choice, for a consistent feed). Lighter formats get lighter visuals: a stat card or grid for a quick take, a carousel for a re-angle, a photo or simple diagram for a practice post.
 - Queue upcoming posts as `draft: true` with their planned `date`; flip `draft` off on posting day so the site matches LinkedIn.
 - The running plan lives in `SCHEDULE.md` at the repo root. At the start of a posting session, read it, say what's due today, and update it when something posts.
 
