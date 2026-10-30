@@ -16,6 +16,8 @@ If the AI is doing the creating, what should students' creating look like now?
 
 [🔗 Link to research in the first comment]
 
+#AIinEducation #BloomsTaxonomy #HigherEd #CriticalThinking
+
 ## First comment
 
 🔗 Anthropic Education Report: How University Students Use Claude (April 2025): https://www.anthropic.com/research/anthropic-education-report-how-university-students-use-claude

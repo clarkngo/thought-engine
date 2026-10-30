@@ -18,6 +18,8 @@ Are you teaching students to govern their own AI use, or just configuring the to
 
 [🔗 Link to research in the first comment]
 
+#CSEducation #AIinEducation #EdTech #HigherEd
+
 ## First comment
 
 🔗 Kapoor, Diaz, MacNeil, Porter & Denny (2025), "Exploring Student Behaviors and Motivations using AI TAs with Optional Guardrails": https://arxiv.org/abs/2504.11146

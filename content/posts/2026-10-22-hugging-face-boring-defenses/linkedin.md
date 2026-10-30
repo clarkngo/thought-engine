@@ -34,6 +34,8 @@ If an agent swarm hit your stack this weekend, what fails first: your least-priv
 
 [🔗 Link to research in the first comment]
 
+#AISecurity #AIAgents #CyberSecurity #SystemArchitecture
+
 ## First comment
 
 🔗 Hugging Face's technical timeline of the intrusion: https://huggingface.co/blog/agent-intrusion-technical-timeline

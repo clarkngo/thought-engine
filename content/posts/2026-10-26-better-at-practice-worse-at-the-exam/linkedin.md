@@ -37,6 +37,8 @@ If your students' homework scores went up this year, how do you know they learne
 
 [🔗 Link to research in the first comment]
 
+#HigherEd #AIinEducation #Assessment #LearningScience
+
 ## First comment
 
 🔗 Bastani et al. (2025), "Generative AI without guardrails can harm learning," PNAS: https://doi.org/10.1073/pnas.2422633122

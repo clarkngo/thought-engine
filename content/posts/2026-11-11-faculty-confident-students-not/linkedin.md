@@ -30,6 +30,8 @@ Who should decide whether a curriculum is current: faculty, students, or employe
 
 [🔗 Links to research in the first comment]
 
+#HigherEd #FacultyDevelopment #AIinEducation #FutureOfWork
+
 ## First comment
 
 🔗 Digital Education Council, AI in Higher Education Global Survey 2026: https://www.digitaleducationcouncil.com

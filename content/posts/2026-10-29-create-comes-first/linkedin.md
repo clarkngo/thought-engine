@@ -32,6 +32,8 @@ Where would Create-first break down in your field?
 
 [🔗 Sources in the first comment]
 
+#HigherEd #AIinEducation #BloomsTaxonomy #Assessment
+
 ## First comment
 
 🔗 Sources:
