@@ -21,7 +21,7 @@ Status: ✅ posted · 🟢 ready · 🟡 drafted, needs review · 🔴 needs Cla
 | Tue Oct 27 | quick-take | Only 5% Say It Transformed Learning | ✅ | Posted. Reply to comments; note strong ones for the article |
 | Wed Oct 28 | research | Same AI. Opposite Results. | ✅ | Posted. Reply to comments; note strong ones for the article |
 | Thu Oct 29 | practice | Create Comes First | ✅ | Posted. Reply to comments; note strong ones for the article |
-| Fri Oct 30 | re-angle | Five Moves for Teaching With AI | 🟡 | Solutions roundup of the week. Needs its visual: a 6-slide carousel (cover + one move per slide) |
+| Fri Oct 30 | re-angle | Five Moves for Teaching With AI | ✅ | Posted. Reply to comments; note strong ones for the article |
 
 ## Week of Nov 2
 

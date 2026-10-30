@@ -15,7 +15,7 @@ A ChatGPT-style assistant cut exam scores 17%. The guardrailed tutor in the same
 Harvard's instructor-built tutor walked students one step at a time. Median learning gains more than doubled over an active-learning class.
 
 3. Assess without AI at least once.
-It's the only way to see what stuck.
+It's how you see what stuck.
 
 4. Grade the explanation, not the artifact.
 One intro CS course added weekly oral code reviews. AI use rose. Exam averages held steady.
@@ -44,4 +44,4 @@ Move 3 is a design recommendation drawn from the PNAS trial, not a separate stud
 
 ## Visual
 
-None yet. Text-only works for a re-angle; a 6-slide carousel (cover + one move per slide) is an option.
+Upload `carousel.pdf` as a document (LinkedIn: add a document, then give it a title, e.g. "Five Moves for Teaching With AI"). Rebuild: python3 scripts/visuals/five_moves.py, then npm run carousel -- content/posts/2026-10-30-five-moves-for-teaching-with-ai
