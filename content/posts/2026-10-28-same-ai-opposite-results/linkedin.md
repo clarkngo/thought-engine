@@ -36,6 +36,8 @@ If you could rebuild one assignment around a structured AI tutor, which one woul
 
 [🔗 Links to both studies in the first comment]
 
+#HigherEd #AIinEducation #InstructionalDesign #LearningScience
+
 ## First comment
 
 🔗 Kestin et al. (2025), "AI tutoring outperforms in-class active learning," Scientific Reports: https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/

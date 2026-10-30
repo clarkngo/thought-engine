@@ -34,6 +34,8 @@ What's the one skill in your field that matters more now that AI can write the f
 
 [🔗 Links to research in the first comment]
 
+#CSEducation #AIinEducation #HigherEd #SoftwareEngineering
+
 ## First comment
 
 🔗 Fowles et al. (2026), "Allowing Generative AI in CS1 with Code Review Interviews and a Flipped Classroom": https://arxiv.org/abs/2605.21374

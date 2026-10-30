@@ -18,6 +18,8 @@ What would it take for your course's AI integration to land in the 5%?
 
 [🔗 Link to research in the first comment]
 
+#HigherEd #AIinEducation #CourseDesign #StudentExperience
+
 ## First comment
 
 🔗 Digital Education Council, AI in Higher Education Global Survey 2026 (27,284 students across 35 countries): https://www.digitaleducationcouncil.com

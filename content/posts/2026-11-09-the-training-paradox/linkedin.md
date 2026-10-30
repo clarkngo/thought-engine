@@ -30,6 +30,8 @@ Faculty: what did your AI training actually change in your course?
 
 [🔗 Link to research in the first comment]
 
+#HigherEd #FacultyDevelopment #AILiteracy #AIinEducation
+
 ## First comment
 
 🔗 Digital Education Council, AI in Higher Education Global Survey 2026 (27,284 students and 18,114 faculty, 35 countries): https://www.digitaleducationcouncil.com

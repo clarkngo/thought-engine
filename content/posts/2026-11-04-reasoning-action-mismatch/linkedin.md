@@ -18,6 +18,8 @@ Do you check what your agents do, or what they say they'll do?
 
 [🔗 Link to research in the first comment]
 
+#AIAgents #MultiAgentSystems #AIEngineering #LLMs
+
 ## First comment
 
 🔗 "Why Do Multi-Agent LLM Systems Fail?" (Cemri et al., UC Berkeley), failure mode FM-2.6: https://arxiv.org/abs/2503.13657

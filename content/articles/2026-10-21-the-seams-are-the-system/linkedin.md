@@ -33,6 +33,8 @@ Where is the most dangerous seam in your organization's AI stack right now?
 
 [🔗 Full article in the first comment]
 
+#AIAgents #MultiAgentSystems #AIEngineering #HigherEd
+
 ## First comment
 
 🔗 Full article: The Seams Are the System (with references and a "cite this" block): https://clarkngo.github.io/thought-engine/articles/2026-10-21-the-seams-are-the-system/

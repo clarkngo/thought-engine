@@ -16,6 +16,8 @@ How do you build a student's confidence without building their trust in the AI?
 
 [🔗 Link to research in the first comment]
 
+#CriticalThinking #AILiteracy #HigherEd #FutureOfWork
+
 ## First comment
 
 🔗 Lee et al. (CHI 2025), "The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers": https://www.microsoft.com/en-us/research/?p=1135061

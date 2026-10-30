@@ -102,6 +102,7 @@ Clark posts on LinkedIn **every weekday** and reviews and replies to comments da
 | `article` | when due | The article's summary post (see Articles) replaces that week's re-angle or one research slot | Full |
 
 - Every format still follows the LinkedIn rules: no links in the body, source named in-text, link in the first comment.
+- End every LinkedIn post with 3–5 hashtags on their own last line of the `## Post` section in `linkedin.md`, chosen for that post (not in `index.md`).
 - **Every post ships with a visual** (Clark's choice, for a consistent feed). Lighter formats get lighter visuals: a stat card or grid for a quick take, a carousel for a re-angle, a photo or simple diagram for a practice post.
 - Queue upcoming posts as `draft: true` with their planned `date`; flip `draft` off on posting day so the site matches LinkedIn.
 - The running plan lives in `SCHEDULE.md` at the repo root. At the start of a posting session, read it, say what's due today, and update it when something posts.

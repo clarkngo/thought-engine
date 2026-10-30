@@ -31,6 +31,8 @@ Which of the five would be hardest to pull off at your institution?
 
 [🔗 Sources in the first comment]
 
+#HigherEd #AIinEducation #CourseDesign #Teaching
+
 ## First comment
 
 🔗 Sources for this week's posts:
