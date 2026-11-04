@@ -27,9 +27,9 @@ Status: ✅ posted · 🟢 ready · 🟡 drafted, needs review · 🔴 needs Cla
 
 | Date | Format | Post | Status | Notes |
 |---|---|---|---|---|
-| Mon Nov 2 | research | Teach Verification, Not Syntax | 🟡 | Solution: change the assessment (CS1 oral code reviews + NUS–Google report). Upload `visual-hybrid.gif` |
-| Tue Nov 3 | quick-take | Guardrails Have an Off Switch | 🟡 | 50% of 885 CS1 students clicked "See Solution" |
-| Wed Nov 4 | quick-take | The Plan Is Not the Action | 🟡 | Change of pace: agents (MAST reasoning-action mismatch, 13.2%) |
+| Mon Nov 2 | research | The Chatbot Worked. The Outcomes Didn't Move. | ✅ | Posted. Reply to comments; note strong ones for the article |
+| Tue Nov 3 | quick-take | Guardrails Have an Off Switch | ✅ | Posted. Reply to comments; note strong ones for the article |
+| Wed Nov 4 | research | Teach Verification, Not Syntax | ✅ | Posted. Reply to comments; note strong ones for the article |
 | Thu Nov 5 | practice | A CityU moment | 🔴 | Needs your input |
 | Fri Nov 6 | quick-take | The Inverted Pyramid | 🟡 | Creating 39.8% vs Remembering 1.8% (Anthropic) |
 
@@ -43,7 +43,13 @@ Status: ✅ posted · 🟢 ready · 🟡 drafted, needs review · 🔴 needs Cla
 | Thu Nov 12 | practice | A CityU moment | 🔴 | Needs your input |
 | Fri Nov 13 | re-angle | "Four rules for the seams" carousel, or reply to the best comment | ⚪ | Moved from Oct 30 |
 
-Article due after Nov 11: "Performance Is Not Learning: Designing Courses for the Age of AI" (combines Oct 26, Oct 28, Oct 30, Nov 2; Nov 9 and Nov 11 as supporting evidence). Could move up to the week of Nov 9 if this week's comments are strong.
+## Week of Nov 16
+
+| Date | Format | Post | Status | Notes |
+|---|---|---|---|---|
+| Mon Nov 16 | quick-take | The Plan Is Not the Action | 🟡 | Moved from Nov 4. Agents (MAST reasoning-action mismatch, 13.2%). Needs a visual |
+
+Article due after Nov 11: "Performance Is Not Learning: Designing Courses for the Age of AI" (combines Oct 26, Oct 28, Oct 30, Nov 4; Nov 9 and Nov 11 as supporting evidence). Could move up to the week of Nov 9 if this week's comments are strong.
 
 ## Practice-post prompts (pick one, reply in a few sentences)
 

@@ -1,14 +1,13 @@
 ---
-draft: true
 title: "Teach Verification, Not Syntax"
 description: "One CS1 course allowed AI and added weekly oral code reviews. AI use rose; exam averages held steady. The assessment moved from the artifact to the explanation."
-date: 2026-11-02
+date: 2026-11-04
 pillar: "EdTech & Developer Workflows"
 format: research
 keywords: [CS education, CS1, oral code review, verification, assessment, curriculum, generative AI]
-visual: visual-hybrid.svg
+visual: visual-split.svg
 visual_type: image
-alt: "Pixel cards: a robot labeled AI writes it, a student labeled Student explains it, and a professor labeled Instructor asks why. Below, skills labeled less central (implementation-level coding, hand debugging and testing, writing documentation) are struck through, and skills labeled more central appear: verifying AI-generated work, system design and abstraction, critical evaluation."
+alt: "Split screen comparing two ways to grade code. Left, grade the artifact: the same code arrives whether a robot or a student wrote it, and the instructor cannot tell them apart. Right, grade the explanation: in a short oral code review the instructor asks, the student explains, and the instructor checks it off. Below, in an intro CS course with AI allowed and weekly oral code reviews, AI use went up and exam averages held steady."
 source:
   name: "Fowles et al., Allowing Generative AI in CS1 with Code Review Interviews and a Flipped Classroom (arXiv, 2026)"
   url: "https://arxiv.org/abs/2605.21374"

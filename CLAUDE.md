@@ -132,7 +132,11 @@ House style is the **pixel hybrid**: clean diagram layout and clean, readable te
 
 - Canvas 1080×1080, background `#f7f5f0` with a faint dot grid, ink `#1b1d21`, accent `#2547d0`, alert `#e8613c`, success `#2f9e6a`. Cards are square-cornered with an 8px offset shadow.
 - Motion explains the mechanism (flow, loss, failure), on one seamless loop (default 6s; every animation duration must divide it). Use `steps()` timing so motion stays chunky.
-- Text at least 22px on the 1080 canvas so it reads on a phone feed. Keep it to a title, labels, and a 3-line framework.
+- Text at least 22px on the 1080 canvas so it reads on a phone feed. Keep it to a title, labels, and at most one takeaway.
+- **Keep the look, vary the layout.** Palette, type, paper background, pixel characters, and the looping motion stay the same. The composition changes to fit the idea: people grid, stage flow, timeline, one giant number, a shape that is the idea, split screen, scene or comic strip, or carousel.
+  - **Rule 1:** never use the same layout two days in a row. Check the previous post's visual before building.
+  - **Match the layout to the claim:** a comic strip or scene for behavior (what people do and when), a giant number or grid for a single stat, a timeline for change over time, a stage flow for a process.
+  - **Rule 2:** the dark takeaway panel (`flat_panel()` / `framework()`) is optional. Leave it out when one big idea reads better; the post text already carries the framework.
 - Each visual is a Python script in `scripts/visuals/` (e.g. `handoff.py`, `hf_incident.py`) that uses the shared helpers in `scripts/visuals/pixel.py` (ASCII sprites, title, framework panel, house canvas) and writes `visual.svg` into its post or article folder. Run it with `python3 scripts/visuals/<name>.py`.
 - **Flat alternate:** for formal contexts (conference slides, executive audiences), a flat version may sit beside the pixel one as `visual-flat.svg`: same layout, palette, and timing, but rounded cards, simple vector icons, and smooth (linear) motion. Generate it with a `<name>_flat.py` script that imports the pixel script's data and timing (see `scripts/visuals/hf_incident_flat.py`), so the two versions stay in sync.
 - **Hybrid alternate:** pixel actors on top (on the dot grid), flat process flow below a thin divider labeled with the process name, as `visual-hybrid.svg`. Each half keeps its own motion: `steps()` for pixel, linear for flat. Generate it with a `<name>_hybrid.py` script that imports the pixel pieces (see `scripts/visuals/handoff_hybrid.py`).
