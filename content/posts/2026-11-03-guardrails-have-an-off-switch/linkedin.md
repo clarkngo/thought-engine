@@ -23,3 +23,7 @@ Are you teaching students to govern their own AI use, or just configuring the to
 ## First comment
 
 🔗 Kapoor, Diaz, MacNeil, Porter & Denny (2025), "Exploring Student Behaviors and Motivations using AI TAs with Optional Guardrails": https://arxiv.org/abs/2504.11146
+
+## Visual
+
+Upload `visual-comic.gif` (or `.mp4`). The giant-number alternate is `visual.gif`. Re-render: python3 scripts/visuals/guardrails_comic.py, then npm run render -- content/posts/2026-11-03-guardrails-have-an-off-switch/visual-comic.svg
