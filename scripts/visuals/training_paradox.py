@@ -1,11 +1,11 @@
-"""Visual for "The Training Paradox" (2026-11-09): DEC AI in Higher Education Global Survey 2026."""
+"""Visual for "The Training Paradox" (2026-11-18): DEC AI in Higher Education Global Survey 2026."""
 from hybrid_stats import build
 from people import CERT, PROFESSOR, QUESTION, STUDENT
 from pixel import ACCENT, ALERT
 
 if __name__ == "__main__":
     build(
-        slug="2026-11-09-the-training-paradox",
+        slug="2026-11-18-the-training-paradox",
         script="training_paradox.py",
         lines=("Trained.", "Not ready.", "Digital Education Council · Global Survey 2026"),
         cards=[(PROFESSOR, "Faculty", CERT), (STUDENT, "Students", QUESTION)],

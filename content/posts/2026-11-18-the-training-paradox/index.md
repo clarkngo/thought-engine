@@ -2,7 +2,7 @@
 draft: true
 title: "The Training Paradox"
 description: "64% of faculty have taken AI literacy training, yet only 29% of students think their instructors can guide them on AI (17% in the US and Canada)."
-date: 2026-11-09
+date: 2026-11-18
 pillar: "Higher Education & Pedagogy"
 format: research
 keywords: [faculty development, AI literacy, AI policy, students, Digital Education Council, higher education]
