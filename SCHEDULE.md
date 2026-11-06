@@ -30,14 +30,14 @@ Status: ✅ posted · 🟢 ready · 🟡 drafted, needs review · 🔴 needs Cla
 | Mon Nov 2 | research | The Chatbot Worked. The Outcomes Didn't Move. | ✅ | Posted. Reply to comments; note strong ones for the article |
 | Tue Nov 3 | quick-take | Guardrails Have an Off Switch | ✅ | Posted. Reply to comments; note strong ones for the article |
 | Wed Nov 4 | research | Teach Verification, Not Syntax | ✅ | Posted. Reply to comments; note strong ones for the article |
-| Thu Nov 5 | practice | A CityU moment | 🔴 | Needs your input |
-| Fri Nov 6 | quick-take | The Inverted Pyramid | 🟡 | Creating 39.8% vs Remembering 1.8% (Anthropic) |
+| Thu Nov 5 | practice | The Bottleneck Moved | ✅ | Posted. Reply to comments; note strong ones for the article |
+| Fri Nov 6 | quick-take | 92% Have an AI Strategy. 13% Measure the Return. | ✅ | Posted (replaced The Inverted Pyramid, now backlog). Reply to comments; note strong ones for the article |
 
 ## Week of Nov 9
 
 | Date | Format | Post | Status | Notes |
 |---|---|---|---|---|
-| Mon Nov 9 | research | The Training Paradox | 🟡 | 64% trained vs 29% (17% US & Canada). Upload `visual-hybrid.gif` |
+| Mon Nov 9 | research | AI Replaces What We Teach. It Complements What the First Job Taught. | 🟡 | Stanford Canaries (Aug 2026) + Hosseini & Lichtinger. Ladder visual. Upload `visual.gif`. Notes: `research/2026-11-05-missing-rung.md` |
 | Tue Nov 10 | quick-take | Confidence Is the Variable | 🟡 | Microsoft/CMU, CHI 2025 |
 | Wed Nov 11 | research | Faculty Are Most Confident Where Students Are Least | 🟡 | 58% vs 19% (DEC). Upload `visual-hybrid.gif` |
 | Thu Nov 12 | practice | A CityU moment | 🔴 | Needs your input |
@@ -48,8 +48,11 @@ Status: ✅ posted · 🟢 ready · 🟡 drafted, needs review · 🔴 needs Cla
 | Date | Format | Post | Status | Notes |
 |---|---|---|---|---|
 | Mon Nov 16 | quick-take | The Plan Is Not the Action | 🟡 | Moved from Nov 4. Agents (MAST reasoning-action mismatch, 13.2%). Needs a visual |
+| Wed Nov 18 | research | The Training Paradox | 🟡 | Moved from Nov 9. 64% trained vs 29% (17% US & Canada). Upload `visual-hybrid.gif` |
 
-Article due after Nov 11: "Performance Is Not Learning: Designing Courses for the Age of AI" (combines Oct 26, Oct 28, Oct 30, Nov 4; Nov 9 and Nov 11 as supporting evidence). Could move up to the week of Nov 9 if this week's comments are strong.
+**Follow-ups to Nov 9:** "Pilots Don't Learn on the 737" (AI as simulator, not copilot; verify the FAA supervised-line-flying rule first); "Nobody fired the juniors" quick take; possible article "The Missing Rung".
+
+Article due after Nov 11: "Performance Is Not Learning: Designing Courses for the Age of AI" (combines Oct 26, Oct 28, Oct 30, Nov 4; Nov 11 and the Training Paradox (now Nov 18) as supporting evidence). Could move up to the week of Nov 9 if this week's comments are strong.
 
 ## Practice-post prompts (pick one, reply in a few sentences)
 

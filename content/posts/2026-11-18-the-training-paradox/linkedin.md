@@ -38,4 +38,4 @@ Faculty: what did your AI training actually change in your course?
 
 ## Visual
 
-Upload `visual-hybrid.gif` (or `.mp4`). Re-render: python3 scripts/visuals/training_paradox.py, then npm run render -- content/posts/2026-11-09-the-training-paradox/visual-hybrid.svg
+Upload `visual-hybrid.gif` (or `.mp4`). Re-render: python3 scripts/visuals/training_paradox.py, then npm run render -- content/posts/2026-11-18-the-training-paradox/visual-hybrid.svg
