@@ -1252,4 +1252,17 @@
     <text x="100" y="964">2. Measure learning without the AI</text>
     <text x="100" y="1000">3. Ask students what actually helped</text>
   </g>
+  <g class="signature"><rect x="836" y="22" width="12" height="4" fill="#2547d0"/>
+      <rect x="852" y="22" width="4" height="4" fill="#2547d0"/>
+      <rect x="864" y="22" width="4" height="4" fill="#2547d0"/>
+      <rect x="836" y="26" width="4" height="4" fill="#2547d0"/>
+      <rect x="852" y="26" width="8" height="4" fill="#2547d0"/>
+      <rect x="864" y="26" width="4" height="4" fill="#2547d0"/>
+      <rect x="836" y="30" width="4" height="4" fill="#2547d0"/>
+      <rect x="852" y="30" width="4" height="4" fill="#2547d0"/>
+      <rect x="860" y="30" width="8" height="4" fill="#2547d0"/>
+      <rect x="836" y="34" width="12" height="4" fill="#2547d0"/>
+      <rect x="852" y="34" width="4" height="4" fill="#2547d0"/>
+      <rect x="864" y="34" width="4" height="4" fill="#2547d0"/>
+  <text x="876" y="38" font-size="22" font-weight="800" fill="#1b1d21">Clark Ngo</text></g>
 </svg>

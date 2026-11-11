@@ -132,6 +132,7 @@ House style is the **pixel hybrid**: clean diagram layout and clean, readable te
 
 - Canvas 1080×1080, background `#f7f5f0` with a faint dot grid, ink `#1b1d21`, accent `#2547d0`, alert `#e8613c`, success `#2f9e6a`. Cards are square-cornered with an 8px offset shadow.
 - Motion explains the mechanism (flow, loss, failure), on one seamless loop (default 6s; every animation duration must divide it). Use `steps()` timing so motion stays chunky.
+- Every visual carries a small signature: a pixel "CN" monogram and "Clark Ngo" in the empty strip above the title, top right. `document()` and `hybrid_document()` in `pixel.py` add it automatically; keep that strip clear. Older visuals got it on Nov 11, 2026 by inserting `signature()` into their SVGs directly, because some scripts (e.g. `hf_incident.py`, `handoff.py`) have drifted from the versions that were posted.
 - Text at least 22px on the 1080 canvas so it reads on a phone feed. Keep it to a title, labels, and at most one takeaway.
 - **Keep the look, vary the layout.** Palette, type, paper background, pixel characters, and the looping motion stay the same. The composition changes to fit the idea: people grid, stage flow, timeline, one giant number, a shape that is the idea, split screen, scene or comic strip, or carousel.
   - **Rule 1:** never use the same layout two days in a row. Check the previous post's visual before building.

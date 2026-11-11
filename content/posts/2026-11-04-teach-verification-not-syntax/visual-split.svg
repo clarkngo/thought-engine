@@ -368,4 +368,17 @@
   <text x="568" y="842" font-size="58" font-weight="800" fill="#2f9e6a">held steady →</text>
   <text x="60" y="934" font-size="32" font-weight="800" fill="#1b1d21">Not ban AI. Not allow AI. Move the assessment.</text>
   <text x="60" y="1026" font-size="22" fill="#5d6470">Source: Fowles et al., 2026 (preprint, one course); no significant change in exam averages</text>
+  <g class="signature"><rect x="836" y="22" width="12" height="4" fill="#2547d0"/>
+      <rect x="852" y="22" width="4" height="4" fill="#2547d0"/>
+      <rect x="864" y="22" width="4" height="4" fill="#2547d0"/>
+      <rect x="836" y="26" width="4" height="4" fill="#2547d0"/>
+      <rect x="852" y="26" width="8" height="4" fill="#2547d0"/>
+      <rect x="864" y="26" width="4" height="4" fill="#2547d0"/>
+      <rect x="836" y="30" width="4" height="4" fill="#2547d0"/>
+      <rect x="852" y="30" width="4" height="4" fill="#2547d0"/>
+      <rect x="860" y="30" width="8" height="4" fill="#2547d0"/>
+      <rect x="836" y="34" width="12" height="4" fill="#2547d0"/>
+      <rect x="852" y="34" width="4" height="4" fill="#2547d0"/>
+      <rect x="864" y="34" width="4" height="4" fill="#2547d0"/>
+  <text x="876" y="38" font-size="22" font-weight="800" fill="#1b1d21">Clark Ngo</text></g>
 </svg>

@@ -146,4 +146,17 @@
   <rect x="60" y="1000" width="22" height="22" fill="#d8d4c9"/><rect x="94" y="1000" width="22" height="22" fill="#d8d4c9"/><rect x="128" y="1000" width="22" height="22" fill="#d8d4c9"/><rect x="162" y="1000" width="22" height="22" fill="#d8d4c9"/><rect x="196" y="1000" width="22" height="22" fill="#2547d0"/><rect x="230" y="1000" width="22" height="22" fill="#d8d4c9"/><rect x="264" y="1000" width="22" height="22" fill="#d8d4c9"/>
   <text x="970" y="1019" font-size="24" font-weight="700" fill="#5d6470" text-anchor="end">Clark Ngo</text>
   <text x="1020" y="1020" font-size="30" font-weight="800" fill="#2547d0" text-anchor="end">→</text>
+  <g class="signature"><rect x="836" y="22" width="12" height="4" fill="#2547d0"/>
+      <rect x="852" y="22" width="4" height="4" fill="#2547d0"/>
+      <rect x="864" y="22" width="4" height="4" fill="#2547d0"/>
+      <rect x="836" y="26" width="4" height="4" fill="#2547d0"/>
+      <rect x="852" y="26" width="8" height="4" fill="#2547d0"/>
+      <rect x="864" y="26" width="4" height="4" fill="#2547d0"/>
+      <rect x="836" y="30" width="4" height="4" fill="#2547d0"/>
+      <rect x="852" y="30" width="4" height="4" fill="#2547d0"/>
+      <rect x="860" y="30" width="8" height="4" fill="#2547d0"/>
+      <rect x="836" y="34" width="12" height="4" fill="#2547d0"/>
+      <rect x="852" y="34" width="4" height="4" fill="#2547d0"/>
+      <rect x="864" y="34" width="4" height="4" fill="#2547d0"/>
+  <text x="876" y="38" font-size="22" font-weight="800" fill="#1b1d21">Clark Ngo</text></g>
 </svg>
