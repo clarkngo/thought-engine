@@ -1,11 +1,13 @@
 ---
-draft: true
 title: "Confidence Is the Variable"
 description: "In a Microsoft Research and Carnegie Mellon survey, more confidence in AI went with less critical thinking; more self-confidence went with more."
 date: 2026-11-10
 pillar: "Higher Education & Pedagogy"
 format: quick-take
 keywords: [critical thinking, AI literacy, confidence, knowledge workers, Microsoft Research, CHI 2025]
+visual: visual.svg
+visual_type: image
+alt: "A pixel see-saw with a robot labeled trust in AI on one end and a student labeled trust in yourself on the other. When the AI side is down, the caption reads: more trust in AI went with less critical thinking. When the student side is down: more trust in yourself went with more critical thinking. Below: build judgment, not trust in the tool."
 source:
   name: "Lee et al., The Impact of Generative AI on Critical Thinking (CHI 2025)"
   url: "https://www.microsoft.com/en-us/research/?p=1135061"

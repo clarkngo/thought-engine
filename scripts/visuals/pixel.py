@@ -76,6 +76,21 @@ BASE_STYLE = """
 """
 
 
+MONOGRAM = """
+EEE.E..E
+E...EE.E
+E...E.EE
+EEE.E..E
+"""
+
+
+def signature():
+    """Small "CN Clark Ngo" badge in the empty strip above the title, top right (on every visual)."""
+    return f"""
+  <g class="signature">{sprite(MONOGRAM, 836, 22, 4)}
+  <text x="876" y="38" font-size="22" font-weight="800" fill="{INK}">Clark Ngo</text></g>"""
+
+
 def document(body, style, comment):
     """Wrap a visual in the house canvas: 1080 square, paper background, dot grid."""
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080" font-family="{FONT}">
@@ -88,7 +103,7 @@ def document(body, style, comment):
   </defs>
   <rect width="1080" height="1080" fill="#f7f5f0"/>
   <rect width="1080" height="1080" fill="url(#grid)"/>
-{body}
+{body}{signature()}
 </svg>
 """
 
@@ -138,7 +153,7 @@ def hybrid_document(pixel_top, flat_bottom, style, comment):
   <rect width="1080" height="1080" fill="#f7f5f0"/>
   <g class="px">
   <rect width="1080" height="{SPLIT_Y}" fill="url(#grid)"/>{pixel_top}
-  </g>{flat_bottom}
+  </g>{flat_bottom}{signature()}
 </svg>
 """
 

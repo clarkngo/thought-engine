@@ -37,11 +37,11 @@ Status: ✅ posted · 🟢 ready · 🟡 drafted, needs review · 🔴 needs Cla
 
 | Date | Format | Post | Status | Notes |
 |---|---|---|---|---|
-| Mon Nov 9 | research | AI Replaces What We Teach. It Complements What the First Job Taught. | 🟡 | Stanford Canaries (Aug 2026) + Hosseini & Lichtinger. Ladder visual. Upload `visual.gif`. Notes: `research/2026-11-05-missing-rung.md` |
-| Tue Nov 10 | quick-take | Confidence Is the Variable | 🟡 | Microsoft/CMU, CHI 2025 |
-| Wed Nov 11 | research | Faculty Are Most Confident Where Students Are Least | 🟡 | 58% vs 19% (DEC). Upload `visual-hybrid.gif` |
+| Mon Nov 9 | research | AI Replaces What We Teach. It Complements What the First Job Taught. | ✅ | Posted. Reply to comments; note strong ones for the article |
+| Tue Nov 10 | quick-take | Confidence Is the Variable | ✅ | Posted. Reply to comments; note strong ones for the article |
+| Wed Nov 11 | research | Faculty Are Most Confident Where Students Are Least | ✅ | Posted. Reply to comments; note strong ones for the article |
 | Thu Nov 12 | practice | A CityU moment | 🔴 | Needs your input |
-| Fri Nov 13 | re-angle | "Four rules for the seams" carousel, or reply to the best comment | ⚪ | Moved from Oct 30 |
+| Fri Nov 13 | article | Performance Is Not Learning (summary post) | 🟡 | Article draft in `content/articles/2026-11-13-performance-is-not-learning/`; needs your review. Timeline visual. Seams carousel moves to a later re-angle slot |
 
 ## Week of Nov 16
 

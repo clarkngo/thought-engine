@@ -41,4 +41,4 @@ Who should decide whether a curriculum is current: faculty, students, or employe
 
 ## Visual
 
-Upload `visual-hybrid.gif` (or `.mp4`). Re-render: python3 scripts/visuals/confidence_gap.py, then npm run render -- content/posts/2026-11-11-faculty-confident-students-not/visual-hybrid.svg
+Upload `visual.gif` (or `.mp4`). The bar-chart alternate is `visual-hybrid.gif`. Re-render: python3 scripts/visuals/faculty_lenses.py, then npm run render -- content/posts/2026-11-11-faculty-confident-students-not/visual.svg

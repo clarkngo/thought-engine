@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "AI Replaces What We Teach. It Complements What the First Job Taught."
 description: "Young workers in AI-exposed jobs are 19% below trend while experienced workers show no gap. AI substitutes for codified knowledge and complements tacit knowledge, so universities have to build the reps the first job used to give."
 date: 2026-11-09
