@@ -23,3 +23,7 @@ How do you build a student's confidence without building their trust in the AI?
 🔗 Lee et al. (CHI 2025), "The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers": https://www.microsoft.com/en-us/research/?p=1135061
 
 Note: self-reported survey data, so these are associations, not causes.
+
+## Visual
+
+Upload `visual.gif` (or `.mp4`). Re-render: python3 scripts/visuals/confidence_seesaw.py, then npm run render -- content/posts/2026-11-10-confidence-is-the-variable/visual.svg
