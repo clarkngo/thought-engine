@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Performance Is Not Learning"
 subtitle: "Designing courses for the age of AI, and four principles from the evidence"
 description: "AI raises scores during practice and can lower them once it is removed. Randomized trials and course studies point to design, not the model, as what decides the direction. Four principles follow."
@@ -7,9 +6,9 @@ date: 2026-11-13
 pillar: "Higher Education & Pedagogy"
 keywords: [learning versus performance, generative AI, AI tutoring, assessment, guardrails, verification, critical thinking, course design, higher education]
 abstract: "Generative AI has made one of the oldest distinctions in learning science newly urgent: performance during practice is not the same as learning that lasts. In a randomized field experiment, students practicing with a ChatGPT-style assistant scored 48% higher during practice and 17% lower once the assistant was removed. In a randomized trial at Harvard, a structured AI tutor more than doubled median learning gains over an in-class active-learning lesson. The technology was comparable; the design was not. This article reads those trials alongside course-level studies of optional guardrails, oral code reviews, and the link between confidence and critical thinking. It proposes four design principles for courses where AI is present, considers what they mean for higher education institutions, and states the limits of the evidence."
-visual: visual.svg
+visual: visual-comic.svg
 visual_type: image
-alt: "Two lines over a semester. The performance line, with AI help, climbs steadily. The learning line, measured without AI, stays flat. A pixel student rides the performance line until the AI is removed at the exam, then drops to the learning line. Below: performance is what the student can do with help; learning is what remains without it."
+alt: "A three-panel pixel comic from one randomized trial. Panel 1, practice: a robot hands a student the answer; practice score +48% versus a no-AI group. Panel 2, exam with no AI: the robot fades away and the student holds a question mark; exam score -17%. Panel 3, hints only: the student works through the steps while the robot offers a hint; the exam drop is about zero. Below, a dark panel: performance is not learning, and four principles: make the student do the step; measure without the tool at least once; assess the explanation, not only the artifact; build judgment, not trust."
 related:
   - 2026-10-26-better-at-practice-worse-at-the-exam
   - 2026-10-28-same-ai-opposite-results
@@ -98,7 +97,7 @@ The evidence above is uneven in strength, and it comes from different population
 
 **For teaching and learning centers,** the evidence argues for shifting faculty development from tool training to assessment design. Adding AI to a course is not the same as redesigning it. In the Digital Education Council's 2026 survey, only 5% of students whose courses included AI said it had transformed how they learn [4].
 
-**For academic leaders,** the gap is also one of perception. In the same survey, only 19% of U.S. and Canadian students said their program feels current for an AI-enabled world, while 58% of faculty in the region were not worried that their teaching would become outdated, and only 28% of students said most of their assessments reflect the work they expect to do [4]. Program review can ask a direct question: where in this program do students demonstrate learning without AI, and where do they demonstrate judgment with it?
+**For academic leaders,** the gap is also one of perception. In the same survey, only 19% of U.S. and Canadian students said their program feels current for an AI-enabled world, while 58% of faculty in the region were not worried that their teaching would become outdated, and only 28% of students said most of their assessments reflect the work they expect to do [4]. These are separate survey questions, not a head-to-head comparison, but they point the same way. Program review can ask a direct question: where in this program do students demonstrate learning without AI, and where do they demonstrate judgment with it?
 
 **For procurement and IT,** institutionally licensed AI tools should be evaluated on what they can be configured to do: whether instructors can require hints over answers, sequence work, and supply their own reference material. A default general-purpose assistant corresponds to the arm of the PNAS trial that lowered exam scores [1].
 
@@ -122,8 +121,8 @@ This article is a synthesis, not an empirical study, and its evidence has limits
   <li>Digital Education Council. (2026). <em>AI in higher education global survey 2026</em>. <a href="https://www.digitaleducationcouncil.com">https://www.digitaleducationcouncil.com</a></li>
   <li>Kestin, G., Miller, K., Klales, A., Milbourne, T., &amp; Ponti, G. (2025). AI tutoring outperforms in-class active learning: An RCT introducing a novel research-based design in an authentic educational setting. <em>Scientific Reports, 15</em>, 17458. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/">https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/</a></li>
   <li>Kapoor, A., Diaz, M., MacNeil, S., Porter, L., &amp; Denny, P. (2025). <em>Exploring student behaviors and motivations using AI TAs with optional guardrails</em> (arXiv:2504.11146). <a href="https://arxiv.org/abs/2504.11146">https://arxiv.org/abs/2504.11146</a></li>
-  <li>Azimi. (2026). <em>AI literacy over tool design: A mixed-methods study of scaffolded versus unrestricted generative AI in programming education</em> (arXiv:2609.16784). <a href="https://arxiv.org/abs/2609.16784">https://arxiv.org/abs/2609.16784</a></li>
-  <li>Fowles, M., et al. (2026). <em>Allowing generative AI in CS1 with code review interviews and a flipped classroom</em> (arXiv:2605.21374). <a href="https://arxiv.org/abs/2605.21374">https://arxiv.org/abs/2605.21374</a></li>
-  <li>Lee, et al. (2026). <em>Reshaping undergraduate computer science education in the generative AI era</em> (arXiv:2606.07545). <a href="https://arxiv.org/abs/2606.07545">https://arxiv.org/abs/2606.07545</a></li>
+  <li>Azimi, S. (2026). <em>AI literacy over tool design: A mixed-methods study of scaffolded versus unrestricted generative AI in programming education</em> (arXiv:2609.16784). <a href="https://arxiv.org/abs/2609.16784">https://arxiv.org/abs/2609.16784</a></li>
+  <li>Fowles, P., Falor, E., Bhattarai, S., Edwards, J., &amp; Poulsen, S. (2026). <em>Allowing generative AI in CS1 with code review interviews and a flipped classroom</em> (arXiv:2605.21374). <a href="https://arxiv.org/abs/2605.21374">https://arxiv.org/abs/2605.21374</a></li>
+  <li>Lee, Y.-C., Boonprakong, N., Tan, Y., Soh, H., Potanin, A., Kumar, V., Sinha, A. K., Qian, C., Denny, P., El-Assady, M., Oakley, I., Renzella, J., Zhang, A., Singh, J., Lee, W. S., Lin, H.-T., E, J. L., Tang, A., Burnett, M. M., . . . Cristea, A. I. (2026). <em>Reshaping undergraduate computer science education in the generative AI era</em> (arXiv:2606.07545). <a href="https://arxiv.org/abs/2606.07545">https://arxiv.org/abs/2606.07545</a></li>
   <li>Lee, H.-P., Sarkar, A., Tankelevitch, L., Drosos, I., Rintel, S., Banks, R., &amp; Wilson, N. (2025). The impact of generative AI on critical thinking: Self-reported reductions in cognitive effort and confidence effects from a survey of knowledge workers. In <em>Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems</em>. ACM. <a href="https://www.microsoft.com/en-us/research/?p=1135061">https://www.microsoft.com/en-us/research/?p=1135061</a></li>
 </ol>
