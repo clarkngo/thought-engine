@@ -40,19 +40,25 @@ Status: ✅ posted · 🟢 ready · 🟡 drafted, needs review · 🔴 needs Cla
 | Mon Nov 9 | research | AI Replaces What We Teach. It Complements What the First Job Taught. | ✅ | Posted. Reply to comments; note strong ones for the article |
 | Tue Nov 10 | quick-take | Confidence Is the Variable | ✅ | Posted. Reply to comments; note strong ones for the article |
 | Wed Nov 11 | research | Faculty Are Most Confident Where Students Are Least | ✅ | Posted. Reply to comments; note strong ones for the article |
-| Thu Nov 12 | practice | A CityU moment | 🔴 | Needs your input |
-| Fri Nov 13 | article | Performance Is Not Learning (summary post) | 🟡 | Article draft in `content/articles/2026-11-13-performance-is-not-learning/`; needs your review. Timeline visual. Seams carousel moves to a later re-angle slot |
+| Thu Nov 12 | practice | Start Small. The Ideas Come Later. | ✅ | Posted. Reply to comments; note strong ones for the article |
+| Fri Nov 13 | article | Performance Is Not Learning (summary post) | ✅ | Posted (comic-strip visual). Seams carousel moves to a later re-angle slot. Next: Zenodo DOI for this article |
 
-## Week of Nov 16
+## Week of Nov 16: AI job simulators
+
+Theme: if the first job stops giving juniors their reps, simulate the job. But the simulator was never the training; the feedback and the supervised first flights are. Research notes: `research/2026-11-16-job-simulators.md`.
 
 | Date | Format | Post | Status | Notes |
 |---|---|---|---|---|
-| Mon Nov 16 | quick-take | The Plan Is Not the Action | 🟡 | Moved from Nov 4. Agents (MAST reasoning-action mismatch, 13.2%). Needs a visual |
-| Wed Nov 18 | research | The Training Paradox | 🟡 | Moved from Nov 9. 64% trained vs 29% (17% US & Canada). Upload `visual-hybrid.gif` |
+| Mon Nov 16 | research | Practice Without Feedback Made Them Worse | 🟡 | Stanford CARE study (CHI '26): practice alone, empathy down; with feedback, skills up. Split-screen visual. Upload `visual.gif` |
+| Tue Nov 17 | quick-take | 67% Less Escalation | ⚪ | Stanford Rehearsal (CHI 2024): AI conflict practice vs lecture. Giant-number visual |
+| Wed Nov 18 | research | Pilots Don't Learn on the 737 | ⚪ | 14 CFR 121.434: after the simulator, supervised line flying under a check pilot (25 hrs, Group II) + 100 hrs in 120 days; Appendix H excludes it from sim credit. JAMA Surgery 2025 (human expert + AI data). Stage-flow visual |
+| Thu Nov 19 | practice | (your moment) | 🔴 | Have you used AI role-play or simulation in a class or workshop? Or a moment where feedback mattered more than practice |
+| Fri Nov 20 | re-angle | What Makes a Simulator Train | ⚪ | Carousel remixing Mon–Wed |
 
-**Follow-ups to Nov 9:** "Pilots Don't Learn on the 737" (AI as simulator, not copilot; verify the FAA supervised-line-flying rule first); "Nobody fired the juniors" quick take; possible article "The Missing Rung".
+**Backlog:** The Plan Is Not the Action (MAST, 13.2%; needs a visual); The Training Paradox (64% trained vs 29%; could join the simulator series as a quick take); "Nobody fired the juniors" quick take.
 
-Article due after Nov 11: "Performance Is Not Learning: Designing Courses for the Age of AI" (combines Oct 26, Oct 28, Oct 30, Nov 4; Nov 11 and the Training Paradox (now Nov 18) as supporting evidence). Could move up to the week of Nov 9 if this week's comments are strong.
+**Possible article (early Dec):** "The Simulator and the Check Pilot: Rebuilding the Missing Rung" (Nov 9 + Nov 16–18).
+
 
 ## Practice-post prompts (pick one, reply in a few sentences)
 
@@ -63,4 +69,4 @@ Article due after Nov 11: "Performance Is Not Learning: Designing Courses for th
 
 ## Next article check
 
-Last article: Oct 21 (The Seams Are the System). Next check: when 2–3 posts share a theme, around Nov 20, or after a strong comment debate.
+Last article: Nov 13 (Performance Is Not Learning). Next check: when 2–3 posts share a theme (the Nov 16–18 simulator series likely qualifies), around Dec 11, or after a strong comment debate.
