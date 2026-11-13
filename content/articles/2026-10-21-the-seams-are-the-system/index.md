@@ -3,6 +3,7 @@ title: "The Seams Are the System"
 subtitle: "Why agentic infrastructure fails at its boundaries, and four rules for designing them"
 description: "Multi-agent failures and the 2026 Hugging Face agent intrusion share one pattern: the breaks happen at boundaries, not inside components. Four design rules follow."
 date: 2026-10-21
+doi: 10.5281/zenodo.24204497
 pillar: "AI Infrastructure & Agentic Systems"
 keywords: [agentic systems, multi-agent systems, system boundaries, least privilege, prompt injection, AI security, higher education, MAST, Hugging Face]
 abstract: "Two recent bodies of evidence, a taxonomy of failures in multi-agent LLM systems and the public timeline of an autonomous agent intrusion at Hugging Face, are usually read separately: one as a reliability problem, the other as a security incident. Read together, they show the same pattern. The decisive failures occurred at boundaries between components (agent to agent, data to code, one privilege domain to another) rather than inside any single component, and neither source suggests that a more capable model would have closed the gap. This article synthesizes the two sources into four design rules for the seams of agentic systems, applies them to AI deployments in higher education, and states the limits of the evidence."

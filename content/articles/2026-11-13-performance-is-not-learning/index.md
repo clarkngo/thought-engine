@@ -3,6 +3,7 @@ title: "Performance Is Not Learning"
 subtitle: "Designing courses for the age of AI, and four principles from the evidence"
 description: "AI raises scores during practice and can lower them once it is removed. Randomized trials and course studies point to design, not the model, as what decides the direction. Four principles follow."
 date: 2026-11-13
+doi: 10.5281/zenodo.24204021
 pillar: "Higher Education & Pedagogy"
 keywords: [learning versus performance, generative AI, AI tutoring, assessment, guardrails, verification, critical thinking, course design, higher education]
 abstract: "Generative AI has made one of the oldest distinctions in learning science newly urgent: performance during practice is not the same as learning that lasts. In a randomized field experiment, students practicing with a ChatGPT-style assistant scored 48% higher during practice and 17% lower once the assistant was removed. In a randomized trial at Harvard, a structured AI tutor more than doubled median learning gains over an in-class active-learning lesson. The technology was comparable; the design was not. This article reads those trials alongside course-level studies of optional guardrails, oral code reviews, and the link between confidence and critical thinking. It proposes four design principles for courses where AI is present, considers what they mean for higher education institutions, and states the limits of the evidence."
