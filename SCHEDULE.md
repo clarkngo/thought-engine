@@ -11,7 +11,7 @@ Status: ✅ posted · 🟢 ready · 🟡 drafted, needs review · 🔴 needs Cla
 | Wed Oct 21 | research | Agents Don't Fail. Handoffs Do. | ✅ | Posted. Reply to comments today; note strong ones for the article |
 | Thu Oct 22 | research | Novel Attackers. Boring Defenses. | ✅ | Posted (took the practice slot) |
 | Fri Oct 23 | article | The Seams Are the System (summary post) | ✅ | Posted. Reply to comments; note strong ones for the article |
-| Weekend | — | Get a Zenodo DOI for the article (it's live) | ⚪ | DOI steps in CLAUDE.md → Articles |
+| Weekend | — | Get a Zenodo DOI for the article (it's live) | ✅ | Published on Zenodo: 10.5281/zenodo.24204497 |
 
 ## Week of Oct 26: Higher ed and AI, problem → solutions
 
@@ -41,7 +41,7 @@ Status: ✅ posted · 🟢 ready · 🟡 drafted, needs review · 🔴 needs Cla
 | Tue Nov 10 | quick-take | Confidence Is the Variable | ✅ | Posted. Reply to comments; note strong ones for the article |
 | Wed Nov 11 | research | Faculty Are Most Confident Where Students Are Least | ✅ | Posted. Reply to comments; note strong ones for the article |
 | Thu Nov 12 | practice | Start Small. The Ideas Come Later. | ✅ | Posted. Reply to comments; note strong ones for the article |
-| Fri Nov 13 | article | Performance Is Not Learning (summary post) | ✅ | Posted (comic-strip visual). Seams carousel moves to a later re-angle slot. Next: Zenodo DOI for this article |
+| Fri Nov 13 | article | Performance Is Not Learning (summary post) | ✅ | Posted (comic-strip visual). Seams carousel moves to a later re-angle slot. DOI: 10.5281/zenodo.24204021 |
 
 ## Week of Nov 16: AI job simulators
 
