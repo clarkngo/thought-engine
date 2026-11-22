@@ -75,10 +75,10 @@ def lesson(i):
 
 def closing():
     return (
-        text_lines(["Who plays", "the coach?"], 220, 110, ACCENT, 800, 124)
-        + text_lines(["AI can play the patient, the client,", "and the customer."], 470, 44, INK, 700, 58)
-        + text_lines(["Should the feedback come from", "the AI, the instructor, or both?"], 650, 46, INK, 800, 62)
-        + f'\n  <text x="60" y="934" font-size="24" fill="{GRAY}">Tell me in the comments.</text>'
+        text_lines(["Who plays", "the coach?", "Both."], 200, 100, ACCENT, 800, 112)
+        + text_lines(["The AI watches every rep", "and flags what needs a person."], 560, 44, INK, 700, 58)
+        + text_lines(["A person coaches the flags", "and signs off."], 720, 46, INK, 800, 62)
+        + f'\n  <text x="60" y="934" font-size="24" fill="{GRAY}">Where this week landed. Tell me where you disagree.</text>'
     )
 
 

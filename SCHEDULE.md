@@ -49,11 +49,25 @@ Theme: if the first job stops giving juniors their reps, simulate the job. But t
 
 | Date | Format | Post | Status | Notes |
 |---|---|---|---|---|
-| Mon Nov 16 | research | Practice Without Feedback Made Them Worse | 🟡 | Stanford CARE study (CHI '26): practice alone, empathy down; with feedback, skills up. Split-screen visual. Upload `visual.gif` |
-| Tue Nov 17 | quick-take | 67% Less Escalation | ⚪ | Stanford Rehearsal (CHI 2024): AI conflict practice vs lecture. Giant-number visual |
-| Wed Nov 18 | research | Pilots Don't Learn on the 737 | ⚪ | 14 CFR 121.434: after the simulator, supervised line flying under a check pilot (25 hrs, Group II) + 100 hrs in 120 days; Appendix H excludes it from sim credit. JAMA Surgery 2025 (human expert + AI data). Stage-flow visual |
-| Thu Nov 19 | practice | (your moment) | 🔴 | Have you used AI role-play or simulation in a class or workshop? Or a moment where feedback mattered more than practice |
-| Fri Nov 20 | re-angle | What Makes a Simulator Train | ⚪ | Carousel remixing Mon–Wed |
+| Mon Nov 16 | research | Practice Without Feedback Made Them Worse | ✅ | Posted. Reply to comments; note strong ones for the article |
+| Tue Nov 17 | quick-take | 67% Less Escalation | ✅ | Posted (comic-strip visual). Reply to comments; note strong ones for the article |
+| Wed Nov 18 | research | Simulator First. Then a Check Pilot. | ✅ | Posted (knowledge-worker framing: AI makes seniors efficient check pilots). Reply to comments; note strong ones for the article |
+| Thu Nov 19 | practice | An AI Check Pilot, Not an AI Detector | ✅ | Posted. Reply to comments; note strong ones for the article |
+| Fri Nov 20 | re-angle | What Makes a Simulator Train | ✅ | Posted (carousel; last slide answers "who plays the coach?": both). Reply to comments; note strong ones for the article |
+
+## Week of Nov 23: The AI honesty penalty (Thanksgiving week)
+
+Theme: we ask people to disclose AI use, then penalize them for it, so they hide it. Research notes: `research/2026-11-23-ai-honesty-penalty.md`.
+
+| Date | Format | Post | Status | Notes |
+|---|---|---|---|---|
+| Mon Nov 23 | research | The AI Honesty Penalty | 🟡 | Drafted. Duke PNAS 2025 (penalty depends on the evaluator's own AI use) + Atlassian 2026 (24 pts). Split-scene visual |
+| Tue Nov 24 | quick-take | Managers Hide It Most | ⚪ | Charter survey of 5,000 U.S. workers: 35.9% concealed AI use; managers 43.7%, ICs 27.1%. Find the primary report first |
+| Wed Nov 25 | research | It Felt Faster. It Was Slower. | ⚪ | METR RCT: 19% slower, believed 20% faster; Feb 2026 update caveat. Ties to Nov 6 (13% measure ROI) |
+| Thu Nov 26 | — | Thanksgiving | — | Off |
+| Fri Nov 27 | — | Black Friday | — | Off |
+
+**Article:** draft "The Simulator and the Check Pilot: Rebuilding the Missing Rung" (Nov 9 + Nov 16–20) over the holiday; publish week of Nov 30.
 
 **Backlog:** The Plan Is Not the Action (MAST, 13.2%; needs a visual); The Training Paradox (64% trained vs 29%; could join the simulator series as a quick take); "Nobody fired the juniors" quick take.
 

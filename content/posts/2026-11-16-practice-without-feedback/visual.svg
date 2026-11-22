@@ -12,6 +12,14 @@
     @keyframes bot { 0% { opacity: 0; } 25% { opacity: 1; } 50% { opacity: 0; } 75% { opacity: 1; } }
     .fb { animation: fb 6s steps(1) infinite; }
     @keyframes fb { 0% { opacity: 0; } 12% { opacity: 1; } 25% { opacity: 0; } 37% { opacity: 1; } 50% { opacity: 0; } 62% { opacity: 1; } 75% { opacity: 0; } 87% { opacity: 1; } }
+    .m0 { animation: m0 6s steps(1) infinite; }
+    @keyframes m0 { 0% { opacity: 0; } 12% { opacity: 1; } 25% { opacity: 0; } }
+    .m1 { animation: m1 6s steps(1) infinite; }
+    @keyframes m1 { 0% { opacity: 0; } 37% { opacity: 1; } 50% { opacity: 0; } }
+    .m2 { animation: m2 6s steps(1) infinite; }
+    @keyframes m2 { 0% { opacity: 0; } 62% { opacity: 1; } 75% { opacity: 0; } }
+    .m3 { animation: m3 6s steps(1) infinite; }
+    @keyframes m3 { 0% { opacity: 0; } 87% { opacity: 1; } 100% { opacity: 0; } }
     .lose0 { animation: lose0 6s steps(1) infinite; }
     @keyframes lose0 { 0% { opacity: 1; } 25% { opacity: 0; } }
     .gain0 { animation: gain0 6s steps(1) infinite; }
@@ -178,7 +186,7 @@
   <rect x="452" y="772" width="40" height="32" fill="#e6e3da"/>
   <rect x="568" y="278" width="460" height="566" fill="#2547d0"/>
   <rect x="560" y="270" width="460" height="566" fill="#fff" stroke="#1b1d21" stroke-width="4"/>
-  <text x="584" y="316" font-size="24" font-weight="800" fill="#2547d0" letter-spacing="2">PRACTICE + FEEDBACK</text>
+  <text x="584" y="316" font-size="24" font-weight="800" fill="#2547d0" letter-spacing="2">PRACTICE + AI FEEDBACK</text>
   <g class="you"><rect x="661" y="344" width="35" height="5" fill="#1b1d21"/>
       <rect x="656" y="349" width="5" height="5" fill="#1b1d21"/>
       <rect x="661" y="349" width="35" height="5" fill="#ffffff"/>
@@ -282,7 +290,49 @@
   <text x="668" y="524" font-size="22" font-weight="800" fill="#1b1d21" text-anchor="middle">Trainee</text>
   <text x="900" y="524" font-size="22" font-weight="800" fill="#1b1d21" text-anchor="middle">AI patient</text>
   <g class="fb"><rect x="584" y="548" width="412" height="56" fill="#1b1d21"/>
-  <text x="790" y="584" font-size="22" font-weight="800" fill="#fff" text-anchor="middle">Coach: name the feeling first.</text></g>
+  <rect x="611" y="558" width="6" height="3" fill="#ffb703"/>
+      <rect x="611" y="561" width="6" height="3" fill="#1b1d21"/>
+      <rect x="602" y="564" width="24" height="3" fill="#1b1d21"/>
+      <rect x="599" y="567" width="3" height="3" fill="#1b1d21"/>
+      <rect x="602" y="567" width="24" height="3" fill="#eef1fb"/>
+      <rect x="626" y="567" width="3" height="3" fill="#1b1d21"/>
+      <rect x="599" y="570" width="3" height="3" fill="#1b1d21"/>
+      <rect x="602" y="570" width="3" height="3" fill="#eef1fb"/>
+      <rect x="605" y="570" width="6" height="3" fill="#2547d0"/>
+      <rect x="611" y="570" width="6" height="3" fill="#eef1fb"/>
+      <rect x="617" y="570" width="6" height="3" fill="#2547d0"/>
+      <rect x="623" y="570" width="3" height="3" fill="#eef1fb"/>
+      <rect x="626" y="570" width="3" height="3" fill="#1b1d21"/>
+      <rect x="599" y="573" width="3" height="3" fill="#1b1d21"/>
+      <rect x="602" y="573" width="3" height="3" fill="#eef1fb"/>
+      <rect x="605" y="573" width="6" height="3" fill="#2547d0"/>
+      <rect x="611" y="573" width="6" height="3" fill="#eef1fb"/>
+      <rect x="617" y="573" width="6" height="3" fill="#2547d0"/>
+      <rect x="623" y="573" width="3" height="3" fill="#eef1fb"/>
+      <rect x="626" y="573" width="3" height="3" fill="#1b1d21"/>
+      <rect x="599" y="576" width="3" height="3" fill="#1b1d21"/>
+      <rect x="602" y="576" width="24" height="3" fill="#eef1fb"/>
+      <rect x="626" y="576" width="3" height="3" fill="#1b1d21"/>
+      <rect x="599" y="579" width="3" height="3" fill="#1b1d21"/>
+      <rect x="602" y="579" width="6" height="3" fill="#eef1fb"/>
+      <rect x="608" y="579" width="12" height="3" fill="#2547d0"/>
+      <rect x="620" y="579" width="6" height="3" fill="#eef1fb"/>
+      <rect x="626" y="579" width="3" height="3" fill="#1b1d21"/>
+      <rect x="602" y="582" width="24" height="3" fill="#1b1d21"/>
+      <rect x="599" y="585" width="6" height="3" fill="#1b1d21"/>
+      <rect x="605" y="585" width="18" height="3" fill="#4c6ef5"/>
+      <rect x="623" y="585" width="6" height="3" fill="#1b1d21"/>
+      <rect x="596" y="588" width="3" height="3" fill="#1b1d21"/>
+      <rect x="602" y="588" width="3" height="3" fill="#1b1d21"/>
+      <rect x="605" y="588" width="18" height="3" fill="#4c6ef5"/>
+      <rect x="623" y="588" width="3" height="3" fill="#1b1d21"/>
+      <rect x="629" y="588" width="3" height="3" fill="#1b1d21"/>
+      <rect x="605" y="591" width="6" height="3" fill="#1b1d21"/>
+      <rect x="617" y="591" width="6" height="3" fill="#1b1d21"/></g>
+  <text class="m0" x="648" y="584" font-size="22" font-weight="800" fill="#fff"><tspan fill="#5fd39a">Strength:</tspan> empathy</text>
+  <text class="m1" x="648" y="584" font-size="22" font-weight="800" fill="#fff"><tspan fill="#ffb703">To improve:</tspan> questions</text>
+  <text class="m2" x="648" y="584" font-size="22" font-weight="800" fill="#fff"><tspan fill="#9db1ff">Try:</tspan> a better response</text>
+  <text class="m3" x="648" y="584" font-size="22" font-weight="800" fill="#fff"><tspan fill="#5fd39a">Strength:</tspan> reflection</text>
   <text x="584" y="664" font-size="24" font-weight="800" fill="#1b1d21">Reflections &amp; questions</text>
   <text x="996" y="664" font-size="22" font-weight="800" fill="#2f9e6a" text-anchor="end" letter-spacing="1">BETTER</text>
   <rect x="584" y="680" width="40" height="32" fill="#e6e3da"/>

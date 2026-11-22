@@ -7,11 +7,10 @@ format: research
 keywords: [AI simulation, job simulators, simulated patients, feedback, deliberate practice, counseling training, empathy, early career, higher education]
 visual: visual.svg
 visual_type: image
-alt: "Split screen of two identical practice scenes: a pixel trainee talking with a pixel robot labeled AI patient. On the left, practice alone with an empty dashed box reading No feedback; below, the Reflections and questions meter shows no gain and the Empathy meter drains in red, labeled Worse. On the right, practice plus feedback: a dark coach card appears reading Coach: name the feeling first; the Reflections and questions meter grows in green, labeled Better, and Empathy holds. Caption: the simulator gives the reps, feedback turns them into skill."
+alt: "Split screen of two identical practice scenes: a pixel trainee talking with a pixel robot labeled AI patient. On the left, practice alone with an empty dashed box reading No feedback; below, the Reflections and questions meter shows no gain and the Empathy meter drains in red, labeled Worse. On the right, practice plus AI feedback: a dark card with a small robot shows a different message each turn (strength: empathy; to improve: questions; try: a better response; strength: reflection); the Reflections and questions meter grows in green, labeled Better, and Empathy holds. Caption: the simulator gives the reps, feedback turns them into skill."
 source:
   name: "Louie, Shah, Hasan Orney, Pacheco, Brunskill & Yang, Can LLM-Simulated Practice and Feedback Upskill Human Counselors? (CHI 2026)"
   url: "https://arxiv.org/abs/2505.02428"
-draft: true
 ---
 
 Novice counselors practiced with an AI-simulated patient. The ones who practiced alone came out *less* empathetic than they went in.
@@ -22,7 +21,7 @@ Practice alone: no improvement in the client-centered skills that matter, reflec
 
 Practice with feedback: reflections and questions improved (d = 0.32 to 0.39). On empathy, the feedback group ended well ahead of the practice-only group (d = 0.72).
 
-Same simulator. Same patient. Same twenty minutes of practice. The only difference was whether someone told them what they did.
+Same simulator. Same patient. Same twenty minutes of practice. The only difference was AI feedback on what they did.
 
 This matters because AI job simulators are the obvious answer to [last Monday's problem](/posts/2026-11-09-what-the-first-job-taught/): if the first job stops giving juniors their reps, simulate the job. AI patients for medical students. AI witnesses for law associates. AI customers, clients, and students for everyone else.
 
@@ -33,7 +32,7 @@ Caveats: this was one 75-minute online session with novices, so it shows short-t
 **Before you buy a job simulator:**
 
 - **No simulator without a debrief.** Practice alone can rehearse the wrong habit.
-- **Feedback on the move, not the score.** "Name the feeling first" teaches; "72/100" doesn't.
+- **Feedback on the move, not the score.** A stronger response, and why, teaches. "72/100" doesn't.
 - **Measure the skill, not the sessions.** Hours in the simulator are not a learning outcome.
 
 If AI can play the patient, the client, and the customer, who should play the coach: the AI, the instructor, or both?

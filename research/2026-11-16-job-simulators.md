@@ -26,7 +26,7 @@ Theme: AI as a simulator for the work juniors used to learn on the job. Follows 
 
 **Giglio et al., JAMA Surgery 2025** (doi 10.1001/jamasurg.2025.2564)
 - 88 medical students, surgical simulation. Expert instruction informed by AI data vs AI tutoring alone.
-- Only the human-expert + AI-data arm improved significantly in both performance and transfer to a more complex scenario.
+- Verified Nov 17 from PMC12329680: 88 enrolled, 87 analyzed; 3 arms (AI tutor alone; resident repeating the tutor's words; resident giving personalized feedback from AI error data). Personalized arm beat tutor-only on practice trials 4-5 and on the realistic transfer task. Arm 2 also beat tutor-only on trial 5; personalized vs arm 2 not significant on practice composite. Don't say "only" the expert arm improved.
 - Counterpoint: a crossover RCT in npj (Nov 2025) from the same lab found AI tutoring outperformed expert sessions. Mixed; cite carefully.
 
 ## Supporting / weaker
