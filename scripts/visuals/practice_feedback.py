@@ -1,7 +1,7 @@
 """Visual for "Practice Without Feedback Made Them Worse" (2026-11-16). Source: Louie et al., CHI '26 (CARE).
 
-Layout: split screen. Two identical practice scenes (a trainee talking with an AI patient). Only the right one gets
-feedback cards. Below each, two pixel meters: empathy drains on the left; reflections and questions grow on the right.
+Layout: split screen. Two identical practice scenes (a trainee talking with an AI patient). Only the right one gets AI
+feedback, which changes each turn (strength, area to improve, alternative response). Below each, two pixel meters: empathy drains on the left; reflections and questions grow on the right.
 Directions follow the paper's significant within-group changes; segment counts are illustrative. No takeaway panel.
 """
 from pathlib import Path
@@ -24,10 +24,15 @@ XYYYYYYYX
 ...X.....
 """
 
-PANELS = [(60, "PRACTICE ALONE", False), (560, "PRACTICE + FEEDBACK", True)]
+PANELS = [(60, "PRACTICE ALONE", False), (560, "PRACTICE + AI FEEDBACK", True)]
 TOP, BOTTOM, W = 270, 836, 460
 SEG, GAP, NSEG = 40, 6, 9
 CHANGES = [25, 50, 75]  # % of the loop when a meter steps
+WINDOWS = [(12, 25), (37, 50), (62, 75), (87, 100)]  # % of the loop when each feedback message shows
+# The paper's AI feedback labels strengths, weaknesses, and alternative responses across microskills.
+# These are category labels in that structure, not quotes of the system's output.
+MESSAGES = [("Strength:", "#5fd39a", "empathy"), ("To improve:", "#ffb703", "questions"),
+            ("Try:", "#9db1ff", "a better response"), ("Strength:", "#5fd39a", "reflection")]
 
 STYLE = """    .you { animation: you 6s steps(1) infinite; }
     @keyframes you { 0% { opacity: 1; } 25% { opacity: 0; } 50% { opacity: 1; } 75% { opacity: 0; } }
@@ -36,6 +41,9 @@ STYLE = """    .you { animation: you 6s steps(1) infinite; }
     .fb { animation: fb 6s steps(1) infinite; }
     @keyframes fb { 0% { opacity: 0; } 12% { opacity: 1; } 25% { opacity: 0; } 37% { opacity: 1; } 50% { opacity: 0; } 62% { opacity: 1; } 75% { opacity: 0; } 87% { opacity: 1; } }
 """ + "".join(
+    f"    .m{k} {{ animation: m{k} 6s steps(1) infinite; }}\n    @keyframes m{k} {{ 0% {{ opacity: 0; }} {a}% {{ opacity: 1; }} {b}% {{ opacity: 0; }} }}\n"
+    for k, (a, b) in enumerate(WINDOWS)
+) + "".join(
     f"    .lose{k} {{ animation: lose{k} 6s steps(1) infinite; }}\n    @keyframes lose{k} {{ 0% {{ opacity: 1; }} {p}% {{ opacity: 0; }} }}\n"
     f"    .gain{k} {{ animation: gain{k} 6s steps(1) infinite; }}\n    @keyframes gain{k} {{ 0% {{ opacity: 0; }} {p}% {{ opacity: 1; }} }}\n"
     for k, p in enumerate(CHANGES)
@@ -76,7 +84,11 @@ def main():
         if feedback:
             body += f"""
   <g class="fb"><rect x="{x + 24}" y="548" width="{W - 48}" height="56" fill="{INK}"/>
-  <text x="{x + W // 2}" y="584" font-size="22" font-weight="800" fill="#fff" text-anchor="middle">Coach: name the feeling first.</text></g>"""
+  {sprite(ROBOT, x + 36, 558, 3)}</g>"""
+            for k, (lead, color, rest) in enumerate(MESSAGES):
+                body += f'''
+  <text class="m{k}" x="{x + 88}" y="584" font-size="22" font-weight="800" fill="#fff"><tspan fill="{color}">{lead}</tspan> {rest}</text>'''
+            body += """"""
             body += meter(x, 664, "Reflections &amp; questions", "BETTER", SUCCESS, 4, INK, ("gain", SUCCESS))
             body += meter(x, 756, "Empathy", "HELD", GRAY, 6, INK)
         else:

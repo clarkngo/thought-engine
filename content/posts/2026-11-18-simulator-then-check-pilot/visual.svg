@@ -158,7 +158,7 @@
   <rect x="354" y="400" width="24" height="8" fill="#1b1d21"/><rect x="378" y="388" width="6" height="32" fill="#1b1d21"/><rect x="384" y="394" width="6" height="20" fill="#1b1d21"/><rect x="390" y="400" width="6" height="8" fill="#1b1d21"/>
   <rect x="694" y="400" width="24" height="8" fill="#1b1d21"/><rect x="718" y="388" width="6" height="32" fill="#1b1d21"/><rect x="724" y="394" width="6" height="20" fill="#1b1d21"/><rect x="730" y="400" width="6" height="8" fill="#1b1d21"/>
   <rect class="walk" x="50" y="294" width="300" height="220" fill="none" stroke="#2547d0" stroke-width="8"/>
-  <text x="60" y="576" font-size="24" font-weight="800" fill="#5d6470" letter-spacing="2">GRADUATES</text>
+  <text x="60" y="576" font-size="24" font-weight="800" fill="#5d6470" letter-spacing="2">NEW HIRES</text>
   <rect x="68" y="602" width="280" height="200" fill="#1b1d21"/>
   <rect x="60" y="594" width="280" height="200" fill="#fff" stroke="#1b1d21" stroke-width="4"/>
   <rect x="194" y="618" width="12" height="6" fill="#ffb703"/>
@@ -227,13 +227,13 @@
       <rect x="856" y="654" width="48" height="6" fill="#8a5a2b"/>
       <rect x="904" y="654" width="6" height="6" fill="#1b1d21"/>
       <rect x="850" y="660" width="60" height="6" fill="#1b1d21"/>
-  <text x="880" y="738" font-size="30" font-weight="800" fill="#1b1d21" text-anchor="middle">First job</text>
-  <text x="880" y="774" font-size="22" fill="#5d6470" text-anchor="middle">On your own</text>
+  <text x="880" y="738" font-size="30" font-weight="800" fill="#1b1d21" text-anchor="middle">Real work</text>
+  <text x="880" y="774" font-size="22" fill="#5d6470" text-anchor="middle">On their own</text>
   <rect x="354" y="690" width="24" height="8" fill="#1b1d21"/><rect x="378" y="678" width="6" height="32" fill="#1b1d21"/><rect x="384" y="684" width="6" height="20" fill="#1b1d21"/><rect x="390" y="690" width="6" height="8" fill="#1b1d21"/>
   <rect x="694" y="690" width="24" height="8" fill="#1b1d21"/><rect x="718" y="678" width="6" height="32" fill="#1b1d21"/><rect x="724" y="684" width="6" height="20" fill="#1b1d21"/><rect x="730" y="690" width="6" height="8" fill="#1b1d21"/>
   <rect class="stall" x="50" y="584" width="300" height="220" fill="none" stroke="#e8613c" stroke-width="8"/>
   <text x="60" y="878" font-size="36" font-weight="800" fill="#1b1d21">Pilots never go from simulator to solo.</text>
-  <text x="60" y="926" font-size="36" font-weight="800" fill="#2547d0">Who flies beside our graduates?</text>
+  <text x="60" y="926" font-size="36" font-weight="800" fill="#2547d0">Who flies beside our new hires?</text>
   <text x="60" y="1004" font-size="22" fill="#5d6470">14 CFR 121.434: turbojet initial training. Appendix H bars simulator credit for this stage.</text>
   <text x="60" y="1036" font-size="22" fill="#5d6470">Simplified; details vary by training program.</text>
   <g class="signature"><rect x="836" y="22" width="12" height="4" fill="#2547d0"/>

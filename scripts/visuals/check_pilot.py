@@ -1,4 +1,4 @@
-"""Visual for "Pilots Don't Learn on the 737" (2026-11-18). Source: 14 CFR 121.434 and Appendix H to Part 121.
+"""Visual for "Simulator First. Then a Check Pilot." (2026-11-18). Source: 14 CFR 121.434 and Appendix H to Part 121.
 
 Layout: stage flow, two rows. Pilots: simulator, then real flights with a check pilot, then consolidation on the line.
 Graduates: AI simulator, then a missing stage (no check pilot), then the first job. A highlight walks each row;
@@ -12,7 +12,7 @@ from pixel import ACCENT, ALERT, INK, SUCCESS, document, sprite, title
 from sim_sprites import PLANE, SIM
 from start_small import BAG
 
-OUT = Path(__file__).resolve().parents[2] / "content/posts/2026-11-18-pilots-dont-learn-on-the-737/visual.svg"
+OUT = Path(__file__).resolve().parents[2] / "content/posts/2026-11-18-simulator-then-check-pilot/visual.svg"
 GRAY = "#5d6470"
 CARD_W, CARD_H, GAP = 280, 200, 60
 XS = [60 + i * (CARD_W + GAP) for i in range(3)]
@@ -64,20 +64,20 @@ def main():
     body += arrows(ROW_PILOT)
     body += f'\n  <rect class="walk" x="{XS[0] - 10}" y="{ROW_PILOT - 10}" width="{CARD_W + 20}" height="{CARD_H + 20}" fill="none" stroke="{ACCENT}" stroke-width="8"/>'
 
-    body += f'\n  <text x="60" y="{ROW_GRAD - 18}" font-size="24" font-weight="800" fill="{GRAY}" letter-spacing="2">GRADUATES</text>'
+    body += f'\n  <text x="60" y="{ROW_GRAD - 18}" font-size="24" font-weight="800" fill="{GRAY}" letter-spacing="2">NEW HIRES</text>'
     body += card(XS[0], ROW_GRAD, ROBOT, 6, 72, "AI simulator", "Practice with feedback")
     body += f"""
   <rect x="{XS[1]}" y="{ROW_GRAD}" width="{CARD_W}" height="{CARD_H}" fill="none" stroke="{ALERT}" stroke-width="4" stroke-dasharray="14 10"/>
   <text class="blink" x="{XS[1] + CARD_W // 2}" y="{ROW_GRAD + 92}" font-size="64" font-weight="800" fill="{ALERT}" text-anchor="middle">?</text>
   <text x="{XS[1] + CARD_W // 2}" y="{ROW_GRAD + 144}" font-size="30" font-weight="800" fill="{ALERT}" text-anchor="middle">Who's the</text>
   <text x="{XS[1] + CARD_W // 2}" y="{ROW_GRAD + 180}" font-size="30" font-weight="800" fill="{ALERT}" text-anchor="middle">check pilot?</text>"""
-    body += card(XS[2], ROW_GRAD, BAG, 6, 60, "First job", "On your own")
+    body += card(XS[2], ROW_GRAD, BAG, 6, 60, "Real work", "On their own")
     body += arrows(ROW_GRAD)
     body += f'\n  <rect class="stall" x="{XS[0] - 10}" y="{ROW_GRAD - 10}" width="{CARD_W + 20}" height="{CARD_H + 20}" fill="none" stroke="{ALERT}" stroke-width="8"/>'
 
     body += f"""
   <text x="60" y="878" font-size="36" font-weight="800" fill="{INK}">Pilots never go from simulator to solo.</text>
-  <text x="60" y="926" font-size="36" font-weight="800" fill="{ACCENT}">Who flies beside our graduates?</text>
+  <text x="60" y="926" font-size="36" font-weight="800" fill="{ACCENT}">Who flies beside our new hires?</text>
   <text x="60" y="1004" font-size="22" fill="{GRAY}">14 CFR 121.434: turbojet initial training. Appendix H bars simulator credit for this stage.</text>
   <text x="60" y="1036" font-size="22" fill="{GRAY}">Simplified; details vary by training program.</text>"""
 

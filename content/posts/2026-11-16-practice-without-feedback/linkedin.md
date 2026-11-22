@@ -20,7 +20,7 @@ Practice with feedback: reflections and questions improved. On empathy, they end
 
 Same simulator. Same patient. Same twenty minutes.
 
-The only difference was whether anyone told them what they did.
+The only difference was AI feedback on what they did.
 
 This matters because AI job simulators are the obvious answer to the missing first job. If juniors stop getting reps at work, simulate the work.
 
@@ -35,7 +35,7 @@ Reps without correction can train the wrong habit.
 Before you buy a job simulator:
 
 • No simulator without a debrief. Practice alone can rehearse the wrong habit.
-• Feedback on the move, not the score. "Name the feeling first" teaches. "72/100" doesn't.
+• Feedback on the move, not the score. A stronger response, and why, teaches. "72/100" doesn't.
 • Measure the skill, not the sessions. Hours in the simulator are not a learning outcome.
 
 (Caveat: one 75-minute session with novices. Short-term effects.)
